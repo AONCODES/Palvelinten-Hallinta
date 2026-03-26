@@ -6,4 +6,5 @@ Aloitin tehtävän palauttelemalla muistiin linuxin ja virtuaalikoneen käyttö�
 
 ## Lähteet
 Karvinen 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#laksyt. Luettu 26.3.2026.
+
 Karvinen 2023. Create a Web Page Using Github. Luettavissa: https://terokarvinen.com/2023/create-a-web-page-using-github/. Luettu 26.3.2026.
