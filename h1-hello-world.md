@@ -2,7 +2,7 @@
 Aloitin tehtävän palauttelemalla muistiin linuxin ja virtuaalikoneen käyttöä. Muistin että olin luonut keygenillä avaimet syksyllä, mutta en silti päässyt SSH yhteydellä localhostiin ilman sudo salasanaa. Tämä ongelma ratkesi `ssh-copy-id aatu1@localhost` komennolla. 
 
 Teron artikkeli SSH public key - Login without password (2026) käsittelikin juuri tuota aihetta:
-- SSH Yleisin/johtavaa ja turvallinen kirjautumis ratkaisu palvelimille
+- SSH Yleisin/johtava ja turvallinen kirjautumis ratkaisu palvelimille
 - Käytetään monessa tuotteessa, nopeuttaa myös toimintaa kun ei tarvitse salasanalla kirjautua joka kerta
 
 Toinen artikkeli Hello Ansible (2026) käsitteli nimensä mukaisesti ansiblea, ohjeita kuinka se ladataan ja mitä sillä voidaan tehdä. Artikkelin perusteella seuraavassa kappaleessa esittelen konkreettisia esimerkkejä.
