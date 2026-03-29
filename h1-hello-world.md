@@ -12,6 +12,9 @@ Toinen artikkeli Hello Ansible (2026) käsitteli nimensä mukaisesti ansiblea, o
 
 ## Lähteet
 Karvinen 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#laksyt. Luettu 26.3.2026.
+
 Karvinen 2026. Hello Ansible. Luettavissa: https://terokarvinen.com/hello-ansible/. Luettu 30.3.2026.
+
 Karvinen 2026. SSH public key - Login without password. Luettavissa: https://terokarvinen.com/ssh-public-key-login-without-password/. Luettu 30.3.2026.
+
 Karvinen 2023. Create a Web Page Using Github. Luettavissa: https://terokarvinen.com/2023/create-a-web-page-using-github/. Luettu 26.3.2026.
