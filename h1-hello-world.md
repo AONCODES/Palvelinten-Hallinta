@@ -34,10 +34,10 @@ Helpotin itseäni ja tein ansible.cfg kansion johon lisäsin inventaarioksi host
 
 
 Site.yml tiedosto listaa ryhmät ja niiden konfiguraatiot (roles). Tässä tapauksessa halusin, että kaikki hostit saavat roolin hello. 
-- hosts: all
-  become: true
-  roles:
-    hello
+- hosts: all  
+  become: true  
+  roles:  
+    hello  
 
 
 <img width="287" height="168" alt="Näyttökuva 2026-03-30 kello 20 08 34" src="https://github.com/user-attachments/assets/f5b53fe0-84fd-4eb4-b415-719e27c13535" />
