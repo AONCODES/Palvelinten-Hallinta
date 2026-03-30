@@ -36,6 +36,7 @@ Site.yml tiedosto listaa ryhmät ja niiden konfiguraatiot (roles). Tässä tapau
 <img width="210" height="94" alt="Näyttökuva 2026-03-30 kello 20 03 20" src="https://github.com/user-attachments/assets/3242b24f-9276-419c-87df-79fddb336458" />
 
 
+
 <img width="287" height="168" alt="Näyttökuva 2026-03-30 kello 20 08 34" src="https://github.com/user-attachments/assets/f5b53fe0-84fd-4eb4-b415-719e27c13535" />
 
 Minulla ei ollut vielä hello roolia, joten loin muutaman lisä kansion ja tasks kansioon tiedoston main.yml. Main tiedostosta löytyy koodi, joka pyörii automaattisesti
