@@ -16,16 +16,16 @@ Automatisoin aluksi SSH kirjautumisen, kuten ylempänäkin mainittu niin en saan
 Latasin ansiblen `sudo apt-get install ansible`, hetken aikaa kun Linux lataili niin lataus oli ilmeisesti onnistunut. Tein ohjeiden mukaisesti kansion ansiblesjoka toimii työkansiona tässä tehtävässä (ainakin). Tämän jälkeen loin tiedoston hosts.ini ja lisäsin localhostin sinne, lisäksi ryhmän [web]. Tänne pystyisi lisäämään useampia hosteja mitä haluttaisiin kontrolloida sekä muitakin ryhmiä esim tietokantoja.
 
 <img width="162" height="33" alt="Näyttökuva 2026-03-30 kello 19 47 54" src="https://github.com/user-attachments/assets/f5e1da8e-2e8c-4450-9b8c-f0b9db18f0dc" />
-<img width="162" height="33" alt="Näyttökuva 2026-03-30 kello 19 47 54" src="https://github.com/user-attachments/assets/f5e1da8e-2e8c-4450-9b8c-f0b9db18f0dc" />
+
 
 Testasin toimintaa ja näyttäisi toimivan, poislukien jonkinlainen Python [warning]
 <img width="733" height="144" alt="Näyttökuva 2026-03-30 kello 19 52 31" src="https://github.com/user-attachments/assets/a015779d-8e2b-4cf1-bd23-c77fddeeb34b" />
-<img width="733" height="144" alt="Näyttökuva 2026-03-30 kello 19 52 31" src="https://github.com/user-attachments/assets/a015779d-8e2b-4cf1-bd23-c77fddeeb34b" />
+
 
 hosts.ini tiedostoon lisäsin pohjalle kuvassa näkyvän komennn, jolla sai Python varoituksen poistumaan. 
 
 <img width="438" height="109" alt="Näyttökuva 2026-03-30 kello 19 55 22" src="https://github.com/user-attachments/assets/547d9ef4-9fa8-482f-9f37-84f88f04443e" />
-<img width="438" height="109" alt="Näyttökuva 2026-03-30 kello 19 55 22" src="https://github.com/user-attachments/assets/547d9ef4-9fa8-482f-9f37-84f88f04443e" />
+
 
 
 
