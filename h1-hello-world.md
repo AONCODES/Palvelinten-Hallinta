@@ -19,33 +19,33 @@ Latasin ansiblen `sudo apt-get install ansible`, hetken aikaa kun Linux lataili 
 
 <br><br>
 Testasin toimintaa ja näyttäisi toimivan, poislukien jonkinlainen Python [warning]
-<br><br>
+
 <img width="733" height="144" alt="Näyttökuva 2026-03-30 kello 19 52 31" src="https://github.com/user-attachments/assets/a015779d-8e2b-4cf1-bd23-c77fddeeb34b" />
 
-
+<br><br>
 hosts.ini tiedostoon lisäsin pohjalle kuvassa näkyvän komennn, jolla sai Python varoituksen poistumaan. 
 
 <img width="438" height="109" alt="Näyttökuva 2026-03-30 kello 19 55 22" src="https://github.com/user-attachments/assets/547d9ef4-9fa8-482f-9f37-84f88f04443e" />
 
-
+<br><br>
 Helpotin itseäni ja tein ansible.cfg kansion johon lisäsin inventaarioksi hosts.inin, nyt saman komennon pystyn tekemään ilman -i hosts-iniä (katso kuva)
 
 <img width="660" height="201" alt="Näyttökuva 2026-03-30 kello 20 00 38" src="https://github.com/user-attachments/assets/68dc06f4-5e53-4d4b-8c38-f355a515090b" />
 
-
+<br><br>
 Site.yml tiedosto listaa ryhmät ja niiden konfiguraatiot (roles). Tässä tapauksessa halusin, että kaikki hostit saavat roolin hello. 
 - hosts: all  
   become: true  
   roles:  
-    hello  
+    &nbsp;&nbsp;hello  
 
-
+<br><br>
 <img width="287" height="168" alt="Näyttökuva 2026-03-30 kello 20 08 34" src="https://github.com/user-attachments/assets/f5b53fe0-84fd-4eb4-b415-719e27c13535" />
 
 Minulla ei ollut vielä hello roolia, joten loin muutaman lisä kansion ja tasks kansioon tiedoston main.yml. Main tiedostosta löytyy koodi, joka pyörii automaattisesti
 
 <img width="414" height="57" alt="Näyttökuva 2026-03-30 kello 20 10 11" src="https://github.com/user-attachments/assets/d7cad0dd-6688-4a6d-ae21-1f448f18e0aa" />
-
+<br><br>
 Tämän jälkeen testasin ja ajoin playbooking ja tulee varoituksia:
 
 <img width="1044" height="191" alt="Näyttökuva 2026-03-30 kello 20 12 57" src="https://github.com/user-attachments/assets/e209fcf3-d866-4d88-80ee-3c81f490587a" />
