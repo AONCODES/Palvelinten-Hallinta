@@ -17,7 +17,7 @@ Latasin ansiblen `sudo apt-get install ansible`, hetken aikaa kun Linux lataili 
 
 <img width="162" height="33" alt="Näyttökuva 2026-03-30 kello 19 47 54" src="https://github.com/user-attachments/assets/f5e1da8e-2e8c-4450-9b8c-f0b9db18f0dc" />
 
-
+<br>
 Testasin toimintaa ja näyttäisi toimivan, poislukien jonkinlainen Python [warning]
 
 <img width="733" height="144" alt="Näyttökuva 2026-03-30 kello 19 52 31" src="https://github.com/user-attachments/assets/a015779d-8e2b-4cf1-bd23-c77fddeeb34b" />
