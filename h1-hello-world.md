@@ -27,11 +27,18 @@ hosts.ini tiedostoon lisäsin pohjalle kuvassa näkyvän komennn, jolla sai Pyth
 
 <img width="438" height="109" alt="Näyttökuva 2026-03-30 kello 19 55 22" src="https://github.com/user-attachments/assets/547d9ef4-9fa8-482f-9f37-84f88f04443e" />
 
+
 Helpotin itseäni ja tein ansible.cfg kansion johon lisäsin inventaarioksi hosts.inin, nyt saman komennon pystyn tekemään ilman -i hosts-iniä (katso kuva)
 
 <img width="660" height="201" alt="Näyttökuva 2026-03-30 kello 20 00 38" src="https://github.com/user-attachments/assets/68dc06f4-5e53-4d4b-8c38-f355a515090b" />
 
+
 Site.yml tiedosto listaa ryhmät ja niiden konfiguraatiot (roles). Tässä tapauksessa halusin, että kaikki hostit saavat roolin hello. 
+- hosts: all
+  become: true
+  roles:
+    hello
+
 
 <img width="287" height="168" alt="Näyttökuva 2026-03-30 kello 20 08 34" src="https://github.com/user-attachments/assets/f5b53fe0-84fd-4eb4-b415-719e27c13535" />
 
