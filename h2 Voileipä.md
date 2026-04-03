@@ -2,11 +2,11 @@
 ## Artikkelit
 ### Sudo without password
  - Artikkeli lähtee liikenteeseen uuden käyttäjän luonnilla ja uuteen ryhmään lisäämisellä.
-```
-sudo adduser ansibaatu
-sudo groupadd sudoless
-sudo adduser ansibaatu sudoless
-```
+    ```
+    sudo adduser ansibaatu
+    sudo groupadd sudoless
+    sudo adduser ansibaatu sudoless
+    ```
 - Ohjeet ongelmatilannetta varten: sudo rikki, mitä teen? - Avaa uusi cmd ikkuna ja SSH-yhteys kohde palvelimeen ja vaihda root käyttäjäksi `sudo -i` (tällä tavoin voidaan mahdollisesti korjata rikki mennyt sudo).
   
 - Sudoers sääntö lisätään visudo-tiedostoon, jossa annamme luvan sudoless ryhmän jäsenille luvan käyttää sudoa ilman salsanaa.
