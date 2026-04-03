@@ -14,7 +14,7 @@
       sudo visudo /etc/sudoers.d/sudoless
       sudoless ALL = (ALL) NOPASSWD: ALL
 
-- Lopuksi annetaan tärkeä vinkki: **TESTAA**. Vain testaamalla näet onnistuiko muutokset ja pystytkö käyttämään nyt sudoa ilman salasanaa.
+- Lopuksi annetaan tärkeä vinkki: **TESTAA**. Vain testaamalla näet onnistuiko muutokset ja pystytkö käyttämään nyt sudoa ilman salasanaa. [Karvinen 2026](https://terokarvinen.com/passwordless-sudo/)
 
 ### xkcd 149: Sandwitch
 
