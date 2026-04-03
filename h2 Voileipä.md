@@ -1,4 +1,4 @@
-# Viikon 2. tehtävät
+# H2
 ## Artikkelit
 ### Sudo without password
 ### xkcd 149: Sandwitch
