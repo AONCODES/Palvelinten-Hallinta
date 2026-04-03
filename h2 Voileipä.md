@@ -23,6 +23,8 @@
 ### Passwordless Sudo with Ansible
 - Ansiblen avulla voidaan automatisoida mm. käyttäjien luonti sekä sudo asetukset, niin jokaisella koneella ei tarvitse erikseen tätä käsin tehdä.
   
+- main.yml tiedostoon tulee huomattavasti enemmän tietoa automaatiota varten. Aikaisemmin main.yml tiedostossa oli vain copy osio, tässä ansiblen automaatio versiossa main.yml tiedosto sisältää lisäksi osiot: ryhmät, käyttäjät, avaimet. 
+  
 - Tällä tyylillä varsinkin typo virheitä tulee todella vähän (0?).
   
 - Manuaalisen luonnin/harjoittelun ja **TESTauksen** jälkeen voi asetukset kopioida automaatiota varten.
