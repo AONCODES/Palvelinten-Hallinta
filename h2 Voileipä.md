@@ -17,7 +17,8 @@
 - Lopuksi annetaan tärkeä vinkki: **TESTAA**. Vain testaamalla näet onnistuiko muutokset ja pystytkö käyttämään nyt sudoa ilman salasanaa. [Karvinen 2026](https://terokarvinen.com/passwordless-sudo/)
 
 ### xkcd 149: Sandwitch
-- Mielenkiintoinen webbisivu, jossa koomisia lyhyt sarjakuvia. Mukaan lukien ajankonhtainen sudo vitsi. [xkcd](https://xkcd.com/149/)
+- Mielenkiintoinen webbisivu, jossa koomisia lyhyt sarjakuvia. Mukaan lukien ajankonhtainen sudo vitsi.
+- Sivusto on todella yksinkertainen ja aihealueina heidän sanojensa mukaan: romance, sarcasm, math & languange [xkcd](https://xkcd.com/149/)
 
 ### Passwordless Sudo with Ansible
 
