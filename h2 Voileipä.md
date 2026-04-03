@@ -1,6 +1,6 @@
 # H2
 ## Artikkelit
-### <span style="color:red">Sudo without password</span>
+### Sudo without password
  - Artikkeli lähtee liikenteeseen uuden käyttäjän luonnilla ja uuteen ryhmään lisäämisellä.
     ```
     sudo adduser ansibaatu
