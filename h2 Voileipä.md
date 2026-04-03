@@ -32,12 +32,12 @@
 - Kovakoodattuna nimi *Antero*, niin jos halutaan vaikka käyttäjä *Matti*, niin ei varmaan kovakoodata nimiä yml-tiedostoon? Sama koskee muita asetuksia (?). [Karvinen 2026](https://terokarvinen.com/passwordless-sudo-with-ansible/)
 
 ### Ansible-doc (sisäinen dokumentaatio)
--ansiblen sisäistä dokumentaatiota pääsi näkemään suoraan linuxin komentoriviltä erinäisillä komennoilla esim.
- ```
+- Ansiblen sisäistä dokumentaatiota pääsi näkemään suoraan linuxin komentoriviltä erinäisillä komennoilla esim.
+    ```
     ansible-doc copy
     ansible-doc apt
     ansible-doc user
-```
+    ```
 
 
 ## Sudoless
