@@ -8,10 +8,13 @@ sudo groupadd sudoless
 sudo adduser ansibaatu sudoless
 ```
 - Ohjeet ongelmatilannetta varten: sudo rikki, mitä teen? - Avaa uusi cmd ikkuna ja SSH-yhteys kohde palvelimeen ja vaihda root käyttäjäksi `sudo -i` (tällä tavoin voidaan mahdollisesti korjata rikki mennyt sudo).
+  
+- Sudoers sääntö lisätään visudo-tiedostoon, jossa annamme luvan sudoless ryhmän jäsenille luvan käyttää sudoa ilman salsanaa.
 
       sudo visudo /etc/sudoers.d/sudoless
+      sudoless ALL = (ALL) NOPASSWD: ALL
 
-
+- Lopuksi annetaan tärkeä vinkki: TESTAA. Vain testaamalla näet onnistuiko muutokset ja pystytkö käyttämään nyt sudoa ilman salasanaa.
 
 ### xkcd 149: Sandwitch
 ### Passwordless Sudo with Ansible
