@@ -18,10 +18,15 @@
 
 ### xkcd 149: Sandwitch
 - Mielenkiintoinen webbisivu, jossa koomisia lyhyt sarjakuvia. Mukaan lukien ajankonhtainen sudo vitsi.
-- Sivusto on todella yksinkertainen ja aihealueina heidän sanojensa mukaan: romance, sarcasm, math & languange [xkcd](https://xkcd.com/149/)
+- Sivusto on todella yksinkertainen ja aihealueina heidän sanojensa mukaan: romance, sarcasm, math & languange. [xkcd](https://xkcd.com/149/)
 
 ### Passwordless Sudo with Ansible
+-Ansiblen avulla voidaan automatisoida mm. käyttäjien luonti sekä sudo asetukset, niin jokaisella koneella ei tarvitse erikseen tätä käsin tehdä.
+-Tällä tyylillä varsinkin typo virheitä tulee todella vähän (0?).
+-Manuaalisen luonnin/harjoittelun ja **TESTauksen** jälkeen voi asetukset kopioida automaatiota varten.
+-Kovakoodattuna nimi *Antero*, niin jos halutaan vaikka käyttäjä *Matti*, niin ei varmaan kovakoodata nimiä yml-tiedostoon? Sama koskee muita asetuksia (?). [Karvinen 2026](https://terokarvinen.com/passwordless-sudo-with-ansible/)
 
+### Ansible-doc (sisäinen dokumentaatio)
 
 
 
