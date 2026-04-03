@@ -3,9 +3,11 @@
 ### Sudo without password
 #### Uusi käyttäjä
 - Luodaan ja lisätään ryhmään: sudoless
-    sudo adduser ansibaatu
+    ```sudo adduser ansibaatu
     sudo groupadd sudoless
     sudo adduser ansibaatu sudoless
+    ```
+
 ### xkcd 149: Sandwitch
 ### Passwordless Sudo with Ansible
 
