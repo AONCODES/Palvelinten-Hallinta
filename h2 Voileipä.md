@@ -1,13 +1,14 @@
 # H2
 ## Artikkelit
 ### Sudo without password
-#### Uusi käyttäjä
-Luodaan ja lisätään ryhmään: sudoless
+ - Artikkeli lähtee liikenteeseen uuden käyttäjän luonnilla ja uuteen ryhmään lisäämisellä.
 ```
 sudo adduser ansibaatu
 sudo groupadd sudoless
 sudo adduser ansibaatu sudoless
 ```
+- Ohjeet ongelmatilannetta varten: sudo rikki, mitä teen? - Avaa uusi cmd ikkuna ja SSH-yhteys kohde palvelimeen ja vaihda root käyttäjäksi `sudo -i` (tällä tavoin voidaan mahdollisesti korjata rikki mennyt sudo).
+    sudo visudo /etc/sudoers.d/sudoless
 
 ### xkcd 149: Sandwitch
 ### Passwordless Sudo with Ansible
