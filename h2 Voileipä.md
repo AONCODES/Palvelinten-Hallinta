@@ -9,7 +9,7 @@ sudo adduser ansibaatu sudoless
 ```
 - Ohjeet ongelmatilannetta varten: sudo rikki, mitä teen? - Avaa uusi cmd ikkuna ja SSH-yhteys kohde palvelimeen ja vaihda root käyttäjäksi `sudo -i` (tällä tavoin voidaan mahdollisesti korjata rikki mennyt sudo).
 
-    sudo visudo /etc/sudoers.d/sudoless
+      sudo visudo /etc/sudoers.d/sudoless
 
 
 
