@@ -33,12 +33,13 @@
 
 ### Ansible-doc (sisäinen dokumentaatio)
 - Ansiblen sisäistä dokumentaatiota pääsi näkemään suoraan linuxin komentoriviltä erinäisillä komennoilla esim.
+  
     ```
     ansible-doc copy
     ansible-doc apt
     ansible-doc user
     ```
-
+- 
 
 ## Sudoless
 ## Ansibaatu
