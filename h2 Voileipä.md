@@ -63,9 +63,9 @@
   
 - Avaan visudon ja sudoers.d on ainakin tyhjä. Lisään kuitenkin komennon `%sudoless ALL = (ALL) NOPASSWD: ALL`.
 
-  ```
-  sudo visudo /etc/sudoers.d/sudoless
-  ```
+   ```
+   sudo visudo /etc/sudoers.d/sudoless
+   ```
 
 - Tämän lisäksi avaan pelkästään `sudo visudo` ja täältä löytyy enemmän tekstiä, lisään saman %sudoless komennon tänne sekä myös käyttäjälle erikseen saman komennon (koska ei aluksi toiminut).
 
@@ -73,17 +73,17 @@
 
 - Tämän jälkeen taas testailen ja näyttäisi toimivan.
 
-<img width="703" height="256" alt="Näyttökuva 2026-04-06 kello 16 42 21" src="https://github.com/user-attachments/assets/b6d7a333-bf77-4725-9f09-3a2256f3b1e5" />
+  <img width="703" height="256" alt="Näyttökuva 2026-04-06 kello 16 42 21" src="https://github.com/user-attachments/assets/b6d7a333-bf77-4725-9f09-3a2256f3b1e5" />
 
 - Lopuksi vielä poistan salasanan kysymisen ssh-kirjautumiseen:
 
-  ```
-  ssh-copy-id ansibaatu@localhost
-  ```
+   ```
+   ssh-copy-id ansibaatu@localhost
+   ```
 
 
 
-<img width="713" height="236" alt="Näyttökuva 2026-04-06 kello 16 46 19" src="https://github.com/user-attachments/assets/52cd1381-0a04-4ca1-8f2c-bf3129d99dd6" />
+  <img width="713" height="236" alt="Näyttökuva 2026-04-06 kello 16 46 19" src="https://github.com/user-attachments/assets/52cd1381-0a04-4ca1-8f2c-bf3129d99dd6" />
 
 ## ansibaatu
 
