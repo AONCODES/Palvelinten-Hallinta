@@ -91,9 +91,17 @@ Tehdään salasanaton, automaattisesti SSH:lla kirjautuvas tunnus Ansiblella. Ai
 
 1. Ensiksi loin uudet directoryt /roles/ansibaatu/tasks ja sinne main.yml tiedoston. Loin ansibaatu ja tasksin erikseen komennolla `mkdir ansibaatu` ja siirryin ansibaatuun ja siellä taas `mkdir tasks`.
    
-2. main.yml tiedostoon täytin tarvittavia tietoja: 
+2. main.yml tiedostoon täytin tarvittavia tietoja:
+   - Luodaan ryhmä: sudoless (state:present eli luodaan jos ei ole jo olemassa) (vastaa `groupadd sudoless` komentoa)
+   - Luodaan käyttäjä: ansibaatu (tässä myös state:present).
+   - Lisätään käyttäjä ryhmiin sudoless, sudo ja adm
+   - Lisää ssh-avaimen käyttäjälle (**kirjaudu ilman salasanaa**)
+   - Copy kohdassa luodaan tiedosto ja määrittää sille sisällön
+   - Copy kohdasa annetaan sudo-oikeudet ilman salasanaa tässä tehvässä.
 
    <img width="722" height="320" alt="Näyttökuva 2026-04-06 kello 20 04 39" src="https://github.com/user-attachments/assets/ee0a366d-2bca-4d01-b2af-8e78f4d2732f" />
+
+3.
 
 
 
