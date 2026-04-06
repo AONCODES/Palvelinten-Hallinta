@@ -47,13 +47,21 @@
 
 
 ## Sudoless + User: ansibaatu
-Käyttäjän luon komennolla `sudo adduser <nimi>`, tämän jälkeen tulee muutamia kysymyksiä -> nimesin käyttäjän selvyyden vuoksi.
+- Käyttäjän luon komennolla `sudo adduser <nimi>`, tämän jälkeen tulee muutamia kysymyksiä -> nimesin käyttäjän selvyyden vuoksi.
 
-<img width="480" height="222" alt="Näyttökuva 2026-04-06 kello 16 10 02" src="https://github.com/user-attachments/assets/0817c67a-ec99-4244-837a-be932329c603" />
+  <img width="480" height="222" alt="Näyttökuva 2026-04-06 kello 16 10 02" src="https://github.com/user-attachments/assets/0817c67a-ec99-4244-837a-be932329c603" />
 
-Käyttäjän tekemisen jälkeen luodaan sudoless ryhmä ja lisätään käyttäjä sinne.
+- Käyttäjän tekemisen jälkeen luodaan sudoless ryhmä ja lisätään käyttäjä sinne.
 
-<img width="508" height="38" alt="Näyttökuva 2026-04-06 kello 16 10 53" src="https://github.com/user-attachments/assets/5c08f015-e3cf-4b56-b5f2-75a78984a468" />
+  <img width="508" height="38" alt="Näyttökuva 2026-04-06 kello 16 10 53" src="https://github.com/user-attachments/assets/5c08f015-e3cf-4b56-b5f2-75a78984a468" />
+
+- Avaan komentoriville uuden ikkunan ja kirjaudun `sudo -i` komennolla root käyttäjäksi ja siirryn takaisin 'normi' ikkunaan. Tällä tavoin voidaan välttää suurempia virheitä sudon rikkoutuessa.
+
+  <img width="742" height="100" alt="Näyttökuva 2026-04-06 kello 16 29 42" src="https://github.com/user-attachments/assets/91d45a4d-e647-4f0b-8870-87b1a8781c1a" />
+
+- Seuraavaksi lisätään uuden 'sudoers rule', tässä kohtaa hieman sekoilin ja lisäsin erinäisiä komentoja useaan paikkaan, koska en saanut aluksi toimimaan. Mitkä näistä voisi poistaa (?) Säännön tarkoitus oli siis poistaa sudon salasanan käyttö.
+
+    sudo visudo /etc/sudoers.d/sudoless
 
 
 
