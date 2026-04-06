@@ -46,7 +46,7 @@
    <img width="409" height="148" alt="Näyttökuva 2026-04-06 kello 15 33 31" src="https://github.com/user-attachments/assets/dc87d7d5-a555-414c-b372-5a38597863ef" />
 
 
-## Sudoless + User: ansibaatu
+## Sudoless
 - Käyttäjän luon komennolla `sudo adduser <nimi>`, tämän jälkeen tulee muutamia kysymyksiä -> nimesin käyttäjän selvyyden vuoksi.
 
   <img width="480" height="222" alt="Näyttökuva 2026-04-06 kello 16 10 02" src="https://github.com/user-attachments/assets/0817c67a-ec99-4244-837a-be932329c603" />
@@ -71,9 +71,24 @@
 
   <img width="518" height="137" alt="Näyttökuva 2026-04-06 kello 16 39 46" src="https://github.com/user-attachments/assets/efce15f4-54eb-454a-9697-f918fa2bd704" />
 
+- Tämän jälkeen taas testailen ja näyttäisi toimivan.
+
+<img width="703" height="256" alt="Näyttökuva 2026-04-06 kello 16 42 21" src="https://github.com/user-attachments/assets/b6d7a333-bf77-4725-9f09-3a2256f3b1e5" />
+
+- Lopuksi vielä poistan salasanan kysymisen ssh-kirjautumiseen:
+
+  ```
+  ssh-copy-id ansibaatu@localhost
+  ```
 
 
-Sudoless. Tee ansiblea varten tunnus, jolla voi käyttää sudoa ilman salasanaa. Sekä ssh-kirjautuminen että sudon käyttö tulee olla ansbilea varten automatisoitu.
+
+<img width="713" height="236" alt="Näyttökuva 2026-04-06 kello 16 46 19" src="https://github.com/user-attachments/assets/52cd1381-0a04-4ca1-8f2c-bf3129d99dd6" />
+
+## ansibaatu
+
+
+
 b) Antero. Tee salasanaton, automaattisesti ssh:lla kirjautuva tunnus Ansiblella.
 
 ## Package
