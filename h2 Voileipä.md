@@ -23,7 +23,7 @@
 ### Passwordless Sudo with Ansible
 - Ansiblen avulla voidaan automatisoida mm. käyttäjien luonti sekä sudo asetukset, niin jokaisella koneella ei tarvitse erikseen tätä käsin tehdä.
   
-- main.yml tiedostoon tulee huomattavasti enemmän tietoa automaatiota varten. Aikaisemmin main.yml tiedostossa oli vain copy osio, tässä ansiblen automaatio versiossa main.yml tiedosto sisältää lisäksi osiot: ryhmät, käyttäjät, avaimet. 
+- main.yml tiedostoon tulee huomattavasti enemmän tietoa automaatiota varten. Aikaisemmin main.yml tiedostossa oli vain copy osio (h1 teht), tässä ansiblen automaatio versiossa main.yml tiedosto sisältää lisäksi osiot: ryhmät, käyttäjät, avaimet. 
   
 - Tällä tyylillä varsinkin typo virheitä tulee todella vähän (0?).
   
@@ -39,6 +39,12 @@
     ansible-doc apt
     ansible-doc user
     ```
+- Koodien takaa löytyy 'suht' selkeät ohjeet tai tiedot kustakin *Optionista*. Minulle vähän epäselkeää vielä, tekemällä oppinee nämäkin.
+  
+- Example osio mielestäni tärkeä, siitä hahmottaa kokonaisuden hieman selkeämmin (mitä kopioidaan, minne kopioidaan, kuka/mikä ryhmä omistaa **filen/directoryn** ja millä oikeuksilla):
+  
+<img width="409" height="148" alt="Näyttökuva 2026-04-06 kello 15 33 31" src="https://github.com/user-attachments/assets/dc87d7d5-a555-414c-b372-5a38597863ef" />
+
 - 
 
 ## Sudoless
