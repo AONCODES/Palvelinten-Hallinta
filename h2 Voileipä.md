@@ -45,10 +45,22 @@
   
    <img width="409" height="148" alt="Näyttökuva 2026-04-06 kello 15 33 31" src="https://github.com/user-attachments/assets/dc87d7d5-a555-414c-b372-5a38597863ef" />
 
-- 
 
-## Sudoless
-## Ansibaatu
+## Sudoless + User: ansibaatu
+Käyttäjän luon komennolla `sudo adduser <nimi>`, tämän jälkeen tulee muutamia kysymyksiä -> nimesin käyttäjän selvyyden vuoksi.
+
+<img width="480" height="222" alt="Näyttökuva 2026-04-06 kello 16 10 02" src="https://github.com/user-attachments/assets/0817c67a-ec99-4244-837a-be932329c603" />
+
+Käyttäjän tekemisen jälkeen luodaan sudoless ryhmä ja lisätään käyttäjä sinne.
+
+<img width="508" height="38" alt="Näyttökuva 2026-04-06 kello 16 10 53" src="https://github.com/user-attachments/assets/5c08f015-e3cf-4b56-b5f2-75a78984a468" />
+
+
+
+
+Sudoless. Tee ansiblea varten tunnus, jolla voi käyttää sudoa ilman salasanaa. Sekä ssh-kirjautuminen että sudon käyttö tulee olla ansbilea varten automatisoitu.
+b) Antero. Tee salasanaton, automaattisesti ssh:lla kirjautuva tunnus Ansiblella.
+
 ## Package
 ## File
 
