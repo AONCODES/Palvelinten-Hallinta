@@ -60,9 +60,16 @@
   <img width="742" height="100" alt="Näyttökuva 2026-04-06 kello 16 29 42" src="https://github.com/user-attachments/assets/91d45a4d-e647-4f0b-8870-87b1a8781c1a" />
 
 - Seuraavaksi lisätään uuden 'sudoers rule', tässä kohtaa hieman sekoilin ja lisäsin erinäisiä komentoja useaan paikkaan, koska en saanut aluksi toimimaan. Mitkä näistä voisi poistaa (?) Säännön tarkoitus oli siis poistaa sudon salasanan käyttö.
+  
+- Avaan visudon ja sudoers.d on ainakin tyhjä. Lisään kuitenkin komennon `%sudoless ALL = (ALL) NOPASSWD: ALL`.
 
-    sudo visudo /etc/sudoers.d/sudoless
+  ```
+  sudo visudo /etc/sudoers.d/sudoless
+  ```
 
+- Tämän lisäksi avaan pelkästään `sudo visudo` ja täältä löytyy enemmän tekstiä, lisään saman %sudoless komennon tänne sekä myös käyttäjälle erikseen saman komennon (koska ei aluksi toiminut).
+
+  <img width="518" height="137" alt="Näyttökuva 2026-04-06 kello 16 39 46" src="https://github.com/user-attachments/assets/efce15f4-54eb-454a-9697-f918fa2bd704" />
 
 
 
