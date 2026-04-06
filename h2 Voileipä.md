@@ -159,6 +159,12 @@ Tämä oli hieman epäselvä kohta ja jouduinkin googlettamaan -> googlesta teko
 - owner ja group = tiedoston omistaja ja ryhmä
 - mode = "0600", tähän hieman taas googlea niin "-rw-------". 
    - tällä oktaalinumerolla vain ansibaatu saa read and write, muilla ei ole oikeuksia.
+ 
+4. Testasin katsoa foo.txt tiedostoa aatu1 käyttäjälle ja *permission denied*
+5. SSH yhteys ansibaatuun ja tällä käyttäjällä oli oikeudet ja foo.txt sisältö tuli näkyviin.
+ 
+   <img width="729" height="291" alt="Näyttökuva 2026-04-06 kello 21 39 46" src="https://github.com/user-attachments/assets/6e5a7541-3a68-4429-acc0-a35023d8e6ae" />
+
 
 ## Lähteet
 Karvinen, 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#laksyt. Luettu: 
