@@ -128,8 +128,37 @@ Tehtävänä asentaa kaksi pakettia Ansiblella.
 
    <img width="188" height="133" alt="Näyttökuva 2026-04-06 kello 20 53 06" src="https://github.com/user-attachments/assets/d120eaec-683d-48e1-ad41-cc14a06abe3e" />
 
+4. Ajetaan ansible-playbook site.yml
+   - Tulee virhe site.yml tiedostossa -> typo korjataan.
+     
+   <img width="529" height="168" alt="Näyttökuva 2026-04-06 kello 20 56 48" src="https://github.com/user-attachments/assets/6a146d3e-156e-495d-b175-1ec968e5440a" />
+
+   - Ajetaan ansible-playbook site.yml uudestaan ja tulee taas uusi virhe -> korjataan lisäämällä välilyönti.fortune
+
+     <img width="567" height="152" alt="Näyttökuva 2026-04-06 kello 20 57 42" src="https://github.com/user-attachments/assets/53ed59db-8d70-4d93-b36a-fbdb195abd89" />
+
+   - Virheet korjattu ja toimii ja ohjelmat ladattu.
+     
+<img width="917" height="566" alt="Näyttökuva 2026-04-06 kello 20 59 38" src="https://github.com/user-attachments/assets/37c3fcae-3fe4-4e04-a9e0-706096f7cb49" />
+
 ## File
 
+Tämä oli hieman epäselvä kohta ja jouduinkin googlettamaan -> googlesta tekoälymode antoi aika suoria ehdotuksia ja lähdinkin kokeilemaan niitä hieman soveltaen.
+
+1. Loin uuden tiedoston ansibaatun alaisuuteen files kansion alle (foo.txt)
+2. Muokkasin main.yml tiedostoa:
+
+   <img width="356" height="111" alt="Näyttökuva 2026-04-06 kello 21 18 18" src="https://github.com/user-attachments/assets/4c02839c-3e06-4bf6-adf1-48f5f78bf0a5" />
+
+3. Ajoin playbookin ja tuli jotain (läpi meni), mutta en ole yhtään varma menikö kaikki niin kuin pitää:
+
+   <img width="934" height="565" alt="Näyttökuva 2026-04-06 kello 21 23 37" src="https://github.com/user-attachments/assets/615d16dc-e557-492d-81d8-938a9da838fc" />
+
+- scr =  tiedosto haetaan automaattisesti
+- dest = mihin se kopioidaan
+- owner ja group = tiedoston omistaja ja ryhmä
+- mode = "0600", tähän hieman taas googlea niin "-rw-------". 
+   - tällä oktaalinumerolla vain ansibaatu saa read and write, muilla ei ole oikeuksia.
 
 ## Lähteet
 Karvinen, 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#laksyt. Luettu: 
