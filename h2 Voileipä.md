@@ -113,7 +113,23 @@ Tehdään salasanaton, automaattisesti SSH:lla kirjautuvas tunnus Ansiblella. Ai
    <img width="985" height="521" alt="Näyttökuva 2026-04-06 kello 20 34 18" src="https://github.com/user-attachments/assets/44a07609-7e91-40eb-8cae-efe683e5c592" />
 
 ## Package
+
+Tehtävänä asentaa kaksi pakettia Ansiblella.
+
+1. Luodaan uusi rooli: mkdir paketit ja sinne jälleen tasks
+
+   <img width="483" height="33" alt="Näyttökuva 2026-04-06 kello 20 42 37" src="https://github.com/user-attachments/assets/9a2f643c-2b67-4c78-bb40-d5376ddd6f3c" />
+
+2. Tehdään main.yml tiedosto johon annetaan name: ladattavat ohjelmat ja state: present.
+   
+   <img width="254" height="66" alt="Näyttökuva 2026-04-06 kello 20 52 08" src="https://github.com/user-attachments/assets/514bc7fc-e398-4ad8-854f-0eac7efa5335" />
+
+3. Lisätään site.yml:iin uusi rooli: paketit
+
+   <img width="188" height="133" alt="Näyttökuva 2026-04-06 kello 20 53 06" src="https://github.com/user-attachments/assets/d120eaec-683d-48e1-ad41-cc14a06abe3e" />
+
 ## File
+
 
 ## Lähteet
 Karvinen, 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#laksyt. Luettu: 
