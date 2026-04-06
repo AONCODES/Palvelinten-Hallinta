@@ -98,13 +98,19 @@ Tehdään salasanaton, automaattisesti SSH:lla kirjautuvas tunnus Ansiblella. Ai
    - Lisää ssh-avaimen käyttäjälle (**kirjaudu ilman salasanaa**)
    - Copy kohdassa luodaan tiedosto ja määrittää sille sisällön
    - Copy kohdasa annetaan sudo-oikeudet ilman salasanaa tässä tehvässä.
+     
 
    <img width="722" height="320" alt="Näyttökuva 2026-04-06 kello 20 04 39" src="https://github.com/user-attachments/assets/ee0a366d-2bca-4d01-b2af-8e78f4d2732f" />
 
-3.
+3. Lisätään site.yml tiedostoon hostin alapuolelle kohda `become: true`, sekä rooli **ansibaatu**. 
+
+   <img width="217" height="116" alt="Näyttökuva 2026-04-06 kello 20 31 41" src="https://github.com/user-attachments/assets/da0f3e2c-bf67-4a4b-8d5f-61d92ef7815d" />
 
 
-
+4. Tämän jälkeen `ansible-playbook site.yml` komento oli pitänyt valittaa sudo need a password, mutta minulla ei tullut tätä ongelmaa (?)
+  
+  
+  <img width="985" height="521" alt="Näyttökuva 2026-04-06 kello 20 34 18" src="https://github.com/user-attachments/assets/44a07609-7e91-40eb-8cae-efe683e5c592" />
 
 ## Package
 ## File
