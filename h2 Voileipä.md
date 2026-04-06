@@ -150,15 +150,16 @@ Tämä oli hieman epäselvä kohta ja jouduinkin googlettamaan -> googlesta teko
 
    <img width="356" height="111" alt="Näyttökuva 2026-04-06 kello 21 18 18" src="https://github.com/user-attachments/assets/4c02839c-3e06-4bf6-adf1-48f5f78bf0a5" />
 
+   - src =  tiedosto haetaan automaattisesti
+   - dest = mihin se kopioidaan
+   - owner ja group = tiedoston omistaja ja ryhmä
+   - mode = "0600", tähän hieman taas googlea niin "-rw-------". 
+   - tällä oktaalinumerolla vain ansibaatu saa read and write, muilla ei ole oikeuksia.
+
 3. Ajoin playbookin ja tuli jotain (läpi meni), mutta en ole yhtään varma menikö kaikki niin kuin pitää:
 
    <img width="934" height="565" alt="Näyttökuva 2026-04-06 kello 21 23 37" src="https://github.com/user-attachments/assets/615d16dc-e557-492d-81d8-938a9da838fc" />
 
-- src =  tiedosto haetaan automaattisesti
-- dest = mihin se kopioidaan
-- owner ja group = tiedoston omistaja ja ryhmä
-- mode = "0600", tähän hieman taas googlea niin "-rw-------". 
-   - tällä oktaalinumerolla vain ansibaatu saa read and write, muilla ei ole oikeuksia.
  
 4. Testasin katsoa foo.txt tiedostoa aatu1 käyttäjälle ja *permission denied*
 5. SSH yhteys ansibaatuun ja tällä käyttäjällä oli oikeudet ja foo.txt sisältö tuli näkyviin.
