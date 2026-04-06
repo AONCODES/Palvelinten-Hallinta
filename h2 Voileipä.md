@@ -41,7 +41,7 @@
     ```
 - Koodien takaa löytyy 'suht' selkeät ohjeet tai tiedot kustakin *Optionista*. Minulle vähän epäselkeää vielä, tekemällä oppinee nämäkin.
   
-- Example osio mielestäni tärkeä, siitä hahmottaa kokonaisuden hieman selkeämmin (mitä kopioidaan, minne kopioidaan, kuka/mikä ryhmä omistaa **filen/directoryn** ja millä oikeuksilla): Esimerkkinä `ansible-doc copy`
+- Example osio mielestäni tärkeä, siitä hahmottaa kokonaisuden hieman selkeämmin (mitä kopioidaan, minne kopioidaan, kuka/mikä ryhmä omistaa **filen/directoryn** ja millä oikeuksilla): Esimerkkinä `ansible-doc copy`.
   
    <img width="409" height="148" alt="Näyttökuva 2026-04-06 kello 15 33 31" src="https://github.com/user-attachments/assets/dc87d7d5-a555-414c-b372-5a38597863ef" />
 
