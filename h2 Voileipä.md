@@ -87,9 +87,16 @@
 
 ## ansibaatu
 
+Tehdään salasanaton, automaattisesti SSH:lla kirjautuvas tunnus Ansiblella. Aikaisemmassa kohdassa automatisoitiin sudo ja ssh ilman salasanaa, lisäksi h1 tehtävässä on asennettu ansible ja tehty tarvittavat konfiguraatiot siihen.
+
+1. Ensiksi loin uudet directoryt /roles/ansibaatu/tasks ja sinne main.yml tiedoston. Loin ansibaatu ja tasksin erikseen komennolla `mkdir ansibaatu` ja siirryin ansibaatuun ja siellä taas `mkdir tasks`.
+   
+2. main.yml tiedostoon täytin tarvittavia tietoja: 
+
+   <img width="722" height="320" alt="Näyttökuva 2026-04-06 kello 20 04 39" src="https://github.com/user-attachments/assets/ee0a366d-2bca-4d01-b2af-8e78f4d2732f" />
 
 
-b) Antero. Tee salasanaton, automaattisesti ssh:lla kirjautuva tunnus Ansiblella.
+
 
 ## Package
 ## File
