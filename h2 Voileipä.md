@@ -135,11 +135,11 @@ Tehtävänä asentaa kaksi pakettia Ansiblella.
 
    - Ajetaan ansible-playbook site.yml uudestaan ja tulee taas uusi virhe -> korjataan lisäämällä välilyönti.fortune
 
-     <img width="567" height="152" alt="Näyttökuva 2026-04-06 kello 20 57 42" src="https://github.com/user-attachments/assets/53ed59db-8d70-4d93-b36a-fbdb195abd89" />
+   <img width="567" height="152" alt="Näyttökuva 2026-04-06 kello 20 57 42" src="https://github.com/user-attachments/assets/53ed59db-8d70-4d93-b36a-fbdb195abd89" />
 
    - Virheet korjattu ja toimii ja ohjelmat ladattu.
      
-<img width="917" height="566" alt="Näyttökuva 2026-04-06 kello 20 59 38" src="https://github.com/user-attachments/assets/37c3fcae-3fe4-4e04-a9e0-706096f7cb49" />
+    <img width="917" height="566" alt="Näyttökuva 2026-04-06 kello 20 59 38" src="https://github.com/user-attachments/assets/37c3fcae-3fe4-4e04-a9e0-706096f7cb49" />
 
 ## File
 
@@ -154,7 +154,7 @@ Tämä oli hieman epäselvä kohta ja jouduinkin googlettamaan -> googlesta teko
 
    <img width="934" height="565" alt="Näyttökuva 2026-04-06 kello 21 23 37" src="https://github.com/user-attachments/assets/615d16dc-e557-492d-81d8-938a9da838fc" />
 
-- scr =  tiedosto haetaan automaattisesti
+- src =  tiedosto haetaan automaattisesti
 - dest = mihin se kopioidaan
 - owner ja group = tiedoston omistaja ja ryhmä
 - mode = "0600", tähän hieman taas googlea niin "-rw-------". 
