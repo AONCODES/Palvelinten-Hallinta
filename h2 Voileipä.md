@@ -133,7 +133,7 @@ Tehtävänä asentaa kaksi pakettia Ansiblella.
      
    <img width="529" height="168" alt="Näyttökuva 2026-04-06 kello 20 56 48" src="https://github.com/user-attachments/assets/6a146d3e-156e-495d-b175-1ec968e5440a" />
 
-   - Ajetaan ansible-playbook site.yml uudestaan ja tulee taas uusi virhe -> korjataan lisäämällä välilyönti.fortune
+   - Ajetaan ansible-playbook site.yml uudestaan ja tulee taas uusi virhe -> korjataan lisäämällä välilyönti.
 
    <img width="567" height="152" alt="Näyttökuva 2026-04-06 kello 20 57 42" src="https://github.com/user-attachments/assets/53ed59db-8d70-4d93-b36a-fbdb195abd89" />
 
