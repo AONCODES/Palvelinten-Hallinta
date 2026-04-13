@@ -20,9 +20,27 @@ Aloitin lataamalla apache2:n. Tämä löytyi jo minulta koneelta, mutta siihen o
   
 <img width="596" height="178" alt="Näyttökuva 2026-04-13 kello 14 53 11" src="https://github.com/user-attachments/assets/76689208-d445-4db9-b688-e042635fffc5" />
 
-Tein uuden sivu `mkdir /var/www/uusisivu` ja tänne loin index.html tiedoston `micro index.html`.
+Tein uuden hakemiston `mkdir /var/www/uusisivu` ja uuden index.html tiedoston `micro index.html`.
 
 <img width="430" height="183" alt="Näyttökuva 2026-04-13 kello 14 59 17" src="https://github.com/user-attachments/assets/8142800e-2ca5-4e96-9a0b-4218b069c75b" />
+
+Siirryn seuraavaksi `cd /etc/apache2/sites-availble` ja luon sinne uuden tiedoston `micro uusisivu.conf`
+
+<img width="351" height="183" alt="Näyttökuva 2026-04-13 kello 15 05 36" src="https://github.com/user-attachments/assets/45f22f68-411c-4668-abee-e2eaeda08a52" />
+
+Otan sivun käyttöön:
+
+    sudo a2ensite uusisivu.conf
+
+Tällä luodaan linkki sites-enabled hakemistoon eli otetaan sivu käyttöön.
+
+<img width="438" height="38" alt="Näyttökuva 2026-04-13 kello 15 07 34" src="https://github.com/user-attachments/assets/1ec863e4-3833-4017-b504-61238c780fab" />
+
+Annetaan oikeudet ohjeiden mukaisesti:
+
+    sudo chmod -R ugo+rw /var/www/uusisivu
+
+
 
 
 
