@@ -36,9 +36,12 @@ Tällä luodaan linkki sites-enabled hakemistoon eli otetaan sivu käyttöön.
 
 <img width="438" height="38" alt="Näyttökuva 2026-04-13 kello 15 07 34" src="https://github.com/user-attachments/assets/1ec863e4-3833-4017-b504-61238c780fab" />
 
-Annetaan oikeudet ohjeiden mukaisesti:
+Annetaan oikeudet ohjeiden mukaisesti sekä ´potkaisin´ demonia:
 
     sudo chmod -R ugo+rw /var/www/uusisivu
+    sudo systemctl restart apache2
+
+
 
 Tässä kohtaa sivut näyttivät tältä:
 
