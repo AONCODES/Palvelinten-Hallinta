@@ -40,6 +40,19 @@ Annetaan oikeudet ohjeiden mukaisesti:
 
     sudo chmod -R ugo+rw /var/www/uusisivu
 
+Tässä kohtaa sivut näyttivät tältä:
+
+<img width="387" height="209" alt="Näyttökuva 2026-04-13 kello 15 16 31" src="https://github.com/user-attachments/assets/f11c1f8e-cb93-4b6c-9033-05ad533e432b" />
+
+Muokkasin sivuja:
+
+<img width="661" height="254" alt="Näyttökuva 2026-04-13 kello 15 17 59" src="https://github.com/user-attachments/assets/96bbc9bc-e29f-4e39-9aef-1972e1040477" />
+
+
+
+
+
+
 
 
 
