@@ -78,6 +78,14 @@ Tässä kohtaa tein uuden hakemiston apachen2n tyylisesti sekä loin uuden tiedo
 <img width="493" height="182" alt="Näyttökuva 2026-04-14 kello 12 19 45" src="https://github.com/user-attachments/assets/4cb2b9d6-fafe-49a0-a2e9-9c9678486978" />
 
 
+Annoin oikeudet eli hakemistoihin x-oikeus ja tiedostoon r-oikeus:
+
+    sudo chmod ugo+x /home/aatu1/
+    sudo chmod ugo+x /home/aatu1/nginxtestisivu/
+    sudo chmod ugo+r /home/aatu1/nginxtestisivu/index.html
+
+
+<img width="680" height="323" alt="Näyttökuva 2026-04-14 kello 12 29 29" src="https://github.com/user-attachments/assets/760f22b1-b421-4bdf-8d9f-8263915a4184" />
 
 
 
