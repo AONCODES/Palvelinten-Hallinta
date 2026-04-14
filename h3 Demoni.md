@@ -70,6 +70,19 @@ Lisäksi katsoin selaimelta localhostin niin tulee:
 
 <img width="544" height="210" alt="Näyttökuva 2026-04-14 kello 12 00 14" src="https://github.com/user-attachments/assets/0596da3f-ccb1-47b9-b376-a118dbf5746d" />
 
+Tässä kohtaa tein uuden hakemiston apachen2n tyylisesti sekä loin uuden tiedoston. (tein nämä omaan kotihakemistoon, apache oli /var/www).
+
+    sudo mkdir /home/aatu1/nginxtestisivu
+    sudo micro /home/aatu1/nginxtestisivu/index.html
+
+<img width="493" height="182" alt="Näyttökuva 2026-04-14 kello 12 19 45" src="https://github.com/user-attachments/assets/4cb2b9d6-fafe-49a0-a2e9-9c9678486978" />
+
+
+
+
+
+
+
 
 
    
