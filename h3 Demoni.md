@@ -161,9 +161,6 @@ Tämän jälkeen lisäsin file kohdan:
 
 <img width="539" height="123" alt="Näyttökuva 2026-04-14 kello 14 31 35" src="https://github.com/user-attachments/assets/8eab327b-ef72-4f9d-ac5a-f3f580b9f104" />
 
-Erroria:
-
-<img width="893" height="411" alt="Näyttökuva 2026-04-14 kello 14 53 33" src="https://github.com/user-attachments/assets/676f2122-11d8-4508-bdef-56a17d939c42" />
 
 Puuttuu ainakin tuo files/index.html, lisätään se:
 
@@ -173,9 +170,6 @@ Puuttuu ainakin tuo files/index.html, lisätään se:
 
 <img width="374" height="210" alt="Näyttökuva 2026-04-14 kello 14 56 29" src="https://github.com/user-attachments/assets/7f825dbe-86bb-4985-b77d-91891c57b600" />
 
-Samaa erroria tulee jälleen.
-
-Tajuan, että src:n pitäisi olla index.html, koska sillä nimellä se on nyt siellä files kansiossa.
 
 Lopuksi testaan vielä playbookkia ja näyttäisi menevän kaikki OK:
 
