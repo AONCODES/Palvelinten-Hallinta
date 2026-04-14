@@ -51,6 +51,8 @@ Muokkasin sivuja:
 
 <img width="661" height="254" alt="Näyttökuva 2026-04-13 kello 15 17 59" src="https://github.com/user-attachments/assets/96bbc9bc-e29f-4e39-9aef-1972e1040477" />
 
+Tässä kohtaa huomasinkin, että nuo ovat /var/www/uusisivu/index.html ja sillä on root omistajana, tein uudet sivu kotihakemistoon /home/aatu/uusisivu/index.html ja näin pääsin ainakin muokkaamaan varmasti ilman roottia.
+
 
 ## Nginx asennus
 
