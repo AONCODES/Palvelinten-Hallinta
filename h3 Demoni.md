@@ -121,6 +121,70 @@ Testasin vielä muokata sivua, ja toimi ilman sudoa:
    
 ## Nginx asennuksen automatisointi Ansiblella
 
+Aloitin aluksi tekemällä uuden roolin nginx, sekä sinne tasks hakemiston ja main.yml 
+tiedoston.
+
+<img width="536" height="445" alt="Näyttökuva 2026-04-14 kello 13 39 36" src="https://github.com/user-attachments/assets/a4cb19dd-c242-4e89-85b3-5ff1aa77af6d" />
+
+Tämän jälkeen lisäsin site.yml tiedostoon uuden roolin nginx.
+
+Muokkasin main.ymliin 
+
+    - apt:
+        name: nginx
+        state: present
+
+ja testasin playbookilla:
+
+<img width="694" height="71" alt="Näyttökuva 2026-04-14 kello 13 45 07" src="https://github.com/user-attachments/assets/0a795623-96fd-49d4-b403-b946b39150c9" />
+
+Lisäsin main.yml tiedostoon vielä:
+
+    - service:
+        name: nginx
+        state: started
+
+Tämän jälkeen hieman perehdyin Teron apache ansible automatisointiin tarkemmin ja lähdin tekemään nginx:lla samoja juttuja.
+
+main.ymliin copy tiedosto:
+
+<img width="671" height="259" alt="Näyttökuva 2026-04-14 kello 14 27 17" src="https://github.com/user-attachments/assets/5912164e-48d5-4218-99cd-5007e13dcf4c" />
+
+
+ja tuli pitkä error:
+
+<img width="894" height="276" alt="Näyttökuva 2026-04-14 kello 14 26 11" src="https://github.com/user-attachments/assets/1313ee5d-3eef-431d-89de-dc3408ee0eae" />
+
+Korjasin tämän vaihtamalla src: index.html ja sitten playbook meni läpi.
+
+Tämän jälkeen lisäsin file kohdan:
+
+<img width="539" height="123" alt="Näyttökuva 2026-04-14 kello 14 31 35" src="https://github.com/user-attachments/assets/8eab327b-ef72-4f9d-ac5a-f3f580b9f104" />
+
+Erroria:
+
+<img width="893" height="411" alt="Näyttökuva 2026-04-14 kello 14 53 33" src="https://github.com/user-attachments/assets/676f2122-11d8-4508-bdef-56a17d939c42" />
+
+Puuttuu ainakin tuo files/index.html, lisätään se:
+
+    mkdir /roles/nginx/files
+    micro roles/nginx/files/index.html
+  
+
+<img width="374" height="210" alt="Näyttökuva 2026-04-14 kello 14 56 29" src="https://github.com/user-attachments/assets/7f825dbe-86bb-4985-b77d-91891c57b600" />
+
+Samaa erroria tulee jälleen.
+
+Tajuan, että src:n pitäisi olla index.html, koska sillä nimellä se on nyt siellä files kansiossa.
+
+
+
+
+
+
+
+
+
 ## Lähteet
 https://terokarvinen.com/apache-ansible/
 
