@@ -53,15 +53,26 @@ Muokkasin sivuja:
 
 
 
-
-
-
-
-
-
-
 ## Nginx asennus
 
+Asensin nginx:n
+
+    sudo apt-get install nginx
+
+Suljin tässä kohtaa apache2 ja starttasin nginx
+
+    sudo systemctl stop apache2
+    sudo systemctl start nginx
+
+Tarkistin `sudo systemctl status` komennolla nginx ja apachen tilan -> nginx = active (running) ja apache2 = inactive (dead).
+
+Lisäksi katsoin selaimelta localhostin niin tulee:
+
+<img width="544" height="210" alt="Näyttökuva 2026-04-14 kello 12 00 14" src="https://github.com/user-attachments/assets/0596da3f-ccb1-47b9-b376-a118dbf5746d" />
+
+
+
+   
 ## Nginx asennuksen automatisointi Ansiblella
 
 ## Lähteet
