@@ -112,12 +112,9 @@ Tämän jälkeen käynnistin nginx uudelleen ja testatin localhostia: ei toimi.
   
 - <img width="463" height="133" alt="Näyttökuva 2026-04-14 kello 13 14 16" src="https://github.com/user-attachments/assets/4b045c10-ddc9-471f-94d9-07fc4cc90203" />
 
+Testasin vielä muokata sivua, ja toimi ilman sudoa:
 
-
-
-
-
-
+<img width="407" height="157" alt="Näyttökuva 2026-04-14 kello 13 17 47" src="https://github.com/user-attachments/assets/d3a63a83-d08f-42d5-8aa0-7370943f4075" />
 
 
 
