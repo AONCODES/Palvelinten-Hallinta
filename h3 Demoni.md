@@ -52,7 +52,6 @@ Muokkasin sivuja:
 <img width="661" height="254" alt="Näyttökuva 2026-04-13 kello 15 17 59" src="https://github.com/user-attachments/assets/96bbc9bc-e29f-4e39-9aef-1972e1040477" />
 
 
-
 ## Nginx asennus
 
 Asensin nginx:n
@@ -174,6 +173,8 @@ Puuttuu ainakin tuo files/index.html, lisätään se:
 Lopuksi testaan vielä playbookkia ja näyttäisi menevän kaikki OK:
 
 <img width="727" height="75" alt="Näyttökuva 2026-04-14 kello 15 35 33" src="https://github.com/user-attachments/assets/244658d8-86ee-4049-918d-9e5827f95792" />
+
+
 
 
 
