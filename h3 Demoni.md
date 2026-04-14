@@ -85,8 +85,35 @@ Annoin oikeudet eli hakemistoihin x-oikeus ja tiedostoon r-oikeus sekä vaihdoin
     sudo chmod ugo+r /home/aatu1/nginxtestisivu/index.html
     sudo chown -R aatu1:aatu1 /home/aatu1/nginxtestisivu/
 
+<img width="684" height="325" alt="Näyttökuva 2026-04-14 kello 12 49 02" src="https://github.com/user-attachments/assets/0d91de61-f283-4492-9c4e-3a4ed1636ebf" />
 
-<img width="680" height="323" alt="Näyttökuva 2026-04-14 kello 12 29 29" src="https://github.com/user-attachments/assets/760f22b1-b421-4bdf-8d9f-8263915a4184" />
+Tämän jälkeen jouduin buuttaamaan UTM:n ja testasin muuten vaan selaimessa localhostia, ja sehän näytti apache2:n sivut. Olikin ilmeisesti ansiblella se automaattinen käynnistys (?), olin laittanut apache2:n stopille mutta en disabloinut. Apache oli käynnissä ja nginx = failed. Sammutin apachen uudelleen ja laitoin vielä disabledin mukaan ja sitten käynnistin nginx:n -> buuttasin ja nyt nginx on edelleen running. (toivottavasti mikään ei hajonnut :D)
+
+<img width="725" height="128" alt="Näyttökuva 2026-04-14 kello 12 53 39" src="https://github.com/user-attachments/assets/3b395bc9-cee9-42b2-8bbf-f0b343584824" />
+
+Seuraavaksi menin `cd /etc/nginx/sites-available` ja avasin default tiedoston -> kopioin sielä perältä valmiin koodi pohjan. Tämän jälkeen:
+
+    micro nginxtestisivu
+
+ja liitin koodipohjan sinne ja muokkasin sitä seuraavanlaisesti:
+
+<img width="390" height="235" alt="Näyttökuva 2026-04-14 kello 13 00 19" src="https://github.com/user-attachments/assets/35ca2630-dbc8-4435-85d5-ef2871d6bc60" />
+
+Tämän jälkeen taas kokeilin localhostia, mutta eihän mitään tapahtunut, koska sivu ei ole ns käynnissä.
+
+nginx aktivointi erosi hieman a2ensitesta:
+
+<img width="695" height="36" alt="Näyttökuva 2026-04-14 kello 13 04 59" src="https://github.com/user-attachments/assets/4c38b5a7-57d8-4b63-9325-cc9f9886403e" />
+
+Tämän jälkeen käynnistin nginx uudelleen ja testatin localhostia: ei toimi.
+
+- Pienen nettiselailun jälkeen löytyi vastaus: minulla oli servernamena nginxtestisivu vaikka olisi pitänyt olla localhost (ongelma 1 korjattu)
+- Tämän jälkeen ei vieläkään toiminut, mutta `sudo systemctl realod nginx` korjasi tämän ja localhost toimii selaimessa.
+  
+- <img width="463" height="133" alt="Näyttökuva 2026-04-14 kello 13 14 16" src="https://github.com/user-attachments/assets/4b045c10-ddc9-471f-94d9-07fc4cc90203" />
+
+
+
 
 
 
