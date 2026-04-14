@@ -177,6 +177,9 @@ Samaa erroria tulee jälleen.
 
 Tajuan, että src:n pitäisi olla index.html, koska sillä nimellä se on nyt siellä files kansiossa.
 
+Lopuksi testaan vielä playbookkia ja näyttäisi menevän kaikki OK:
+
+<img width="727" height="75" alt="Näyttökuva 2026-04-14 kello 15 35 33" src="https://github.com/user-attachments/assets/244658d8-86ee-4049-918d-9e5827f95792" />
 
 
 
