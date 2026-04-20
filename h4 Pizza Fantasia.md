@@ -27,7 +27,7 @@ sudo apt-get install mariadb-server
 Asennuksen jälkeen testasin tilanteen, joka näytti että ohjelma on active ja running, eli ei tarvinnut tehdä `sudo systemctl start mariadb`, joka muuten olisi käynnistänyt ohjelman.
 
 <img width="897" height="449" alt="Näyttökuva 2026-04-20 kello 16 34 01" src="https://github.com/user-attachments/assets/b4bdc5e8-386c-45de-8cda-ed3fc624ec07" />
-
+<br></br>
 Hieman hämmennyin, kun tuo mariadb.service teksti tulostui uudelleen ja uudelleen noin 20 kertaa. Ajoin status komennon toistamiseen ja tällä kertaa tiedot tulostui vain kerran (?).
 
 
