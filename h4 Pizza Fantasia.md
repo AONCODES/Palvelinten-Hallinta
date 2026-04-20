@@ -4,12 +4,16 @@
 Tarkastelussa Teron tutkielman kohdat 4.12.1, 4.12.2 & 4.12.3.1. (Karvinen 2023, 112-117)
 
 ### 4.12.1
-- Ensimmäisessä kohdassa Tero käy läpi konfiguraationhallintatyökaluja Salt ja Puppet. Ansible kuuluu myös konfiguraationhallintaan.
-- Saltilla on 510 toimintaa ja pohjana on jinja2 josta saadaan Ansiblen tapaan YAML-koodi joka edelleen muuntaa tiedon python-rakenteeksi.
+- Ensimmäisessä kohdassa Tero käy läpi konfiguraationhallintatyökaluja Salt ja Puppet sekä niiden DSL:ät (kieli joka tarkoitettu yhteen tarkoitukseen). Ansible kuuluu myös konfiguraationhallintaan.
+- Saltilla on 510 toimintaa ja pohjana on jinja2 josta saadaan Ansiblen tapaan YAML-koodi josta edelleen muunnetaan tieto python-rakenteeksi.
 - Puppetilla 113 toimintoa. Puppet ei hyödynnä yleisimpiä koodauskieliä (kuten python) vaan käyttää omia toimintojaan, määrittelee uudet resurssit ja niiden väliset yhteydet.
 
 ### 4.12.2
-- 
+- Tässä kohdassa on analysoity kahta eri julkista puppet konfiguraatiota.
+- Toistuvia komentoja molemmissa on esim file, package ja service. Määrällisesti näitä on käytetty todella paljon, vaikka muitakin toimintoja olisi.
+- file package ja service on Ansiblestakin tuttuja, ohjelmia ladataan, tiedostoja muokkaillaan ja hallitaan sekä servicellä hallitaan esim. ohjelman käynnistymistä tai pysäytystä.
+
+### 4.12.3.1
 
 ## Räpylä
 
