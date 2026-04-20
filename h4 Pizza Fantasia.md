@@ -19,12 +19,12 @@ Tarkastelussa Teron tutkielman kohdat 4.12.1, 4.12.2 & 4.12.3.1. (Karvinen 2023,
 
 
 ## mariadb asennus
-Tehtävänä oli asentaa jokin uusi demoni, valitsin tähän listalta mariadb tietokannan. Aluksi kun avasin virtuaalilinuxin päivitin niin, että kaikki syteemit ovat ajan tasalla. Tämän lisäksi asensin mariadb:n
+Tehtävänä oli asentaa jokin uusi demoni, valitsin tähän listalta mariadb tietokantajärjestelmän. Aluksi kun avasin virtuaalilinuxin päivitin niin, että kaikki syteemit ovat ajan tasalla. Tämän lisäksi asensin mariadb:n
 ```
 sudo apt-get update
 sudo apt-get install mariadb-server
 ```
-Asennuksen jälkeen testasin tilanteen, joka näytti että ohjelma on active ja running, eli ei tarvinut tehdä `sudo systemctl start mariadb`, joka muuten olisi käynnistänyt ohjelman.
+Asennuksen jälkeen testasin tilanteen, joka näytti että ohjelma on active ja running, eli ei tarvinnut tehdä `sudo systemctl start mariadb`, joka muuten olisi käynnistänyt ohjelman.
 
 <img width="897" height="449" alt="Näyttökuva 2026-04-20 kello 16 34 01" src="https://github.com/user-attachments/assets/b4bdc5e8-386c-45de-8cda-ed3fc624ec07" />
 
@@ -33,6 +33,7 @@ Hieman hämmennyin, kun tuo mariadb.service teksti tulostui uudelleen ja uudelle
 
 
 ## Asennuksen automatisointi Ansiblella
+
 
 ## Asetus
 
