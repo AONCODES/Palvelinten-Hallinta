@@ -18,7 +18,7 @@ Tarkastelussa Teron tutkielman kohdat 4.12.1, 4.12.2 & 4.12.3.1. (Karvinen 2023,
 - Kohdassa puhutaan myös idempotenssista joka on myös tullut tutuksi. Tällä tarkoiteaan sitä, että ohjelma voidaan ajaa niin monta kertaa kun halutaan, ja muutokset tulee vain kun niitä on tehty.
 
 
-## mariadb asennus manuaalisesti
+## mariadb asennus
 Tehtävänä oli asentaa jokin uusi demoni, valitsin tähän listalta mariadb tietokannan. Aluksi kun avasin virtuaalilinuxin päivitin niin, että kaikki syteemit ovat ajan tasalla. Tämän lisäksi asensin mariadb:n
 ```
 sudo apt-get update
@@ -28,7 +28,7 @@ Asennuksen jälkeen testasin tilanteen, joka näytti että ohjelma on active ja 
 
 <img width="897" height="449" alt="Näyttökuva 2026-04-20 kello 16 34 01" src="https://github.com/user-attachments/assets/b4bdc5e8-386c-45de-8cda-ed3fc624ec07" />
 
-Hieman hämmennyin, kun tuo mariadb.service teksti tulostui uudelleen ja uudelleen noin 20 kertaa. Ajoin status komennon uudelleen ja tällä kertaa ilmestyi vain kerran (?).
+Hieman hämmennyin, kun tuo mariadb.service teksti tulostui uudelleen ja uudelleen noin 20 kertaa. Ajoin status komennon toistamiseen ja tällä kertaa tiedot tulostui vain kerran (?).
 
 
 
