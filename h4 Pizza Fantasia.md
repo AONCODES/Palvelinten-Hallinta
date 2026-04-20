@@ -1,11 +1,9 @@
 # H4
 
-## Artikkelit
-
-### Configuration Management of Distributed Systems over Unreliable and Hostile Networks
+## Configuration Management of Distributed Systems over Unreliable and Hostile Networks
 Tarkastelussa Teron tutkielman kohdat 4.12.1, 4.12.2 & 4.12.3.1. (Karvinen 2023, 112-117)
 
--
+- 
 
 ## Räpylä
 
