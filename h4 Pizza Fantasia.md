@@ -18,9 +18,10 @@ Tarkastelussa Teron tutkielman kohdat 4.12.1, 4.12.2 & 4.12.3.1. (Karvinen 2023,
 - Kohdassa puhutaan myös idempotenssista joka on myös tullut tutuksi. Tällä tarkoiteaan sitä, että ohjelma voidaan ajaa niin monta kertaa kun halutaan, ja muutokset tulee vain kun niitä on tehty.
 
 
-## Räpylä
+## mariadb asennus manuaalisesti
 
-## Automaatti
+
+## Asennuksen automatisointi Ansiblella
 
 ## Asetus
 
