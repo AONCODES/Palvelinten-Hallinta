@@ -40,7 +40,8 @@ Aluksi ansibles "puu" näytti tältä:
 
 Uuteen main.yml tiedostoon lisäsin asennukseen tarvittavat tiedot. apt = lataa, name = mariadb-server, state = present (eli ladataan jos ei ole jo ladattu).
 
-<img width="544" height="58" alt="Näyttökuva 2026-04-20 kello 16 50 33" src="https://github.com/user-attachments/assets/7763da63-6165-4d4d-937e-f68f31506d69" />
+<img width="544" height="58" alt="Näyttökuva 2026-04-20 kello 16 50 33" src="https://github.com/user-attachments/assets/7763da63-6165-4d4d-937e-f68f31506d69" /> 
+
 <img width="517" height="75" alt="Näyttökuva 2026-04-20 kello 16 58 25" src="https://github.com/user-attachments/assets/9f461e90-45cb-4725-acab-c7d5d1ce3217" />
 
 Tämän jälkeen lisäsin uuden roolin site.yml:iin ja ajoin playbookin:
@@ -55,14 +56,21 @@ Tein ehkä helpon ratkaisun ja poistin site.ymlista nginx:n roolin. Oliko ongelm
 
 <img width="941" height="73" alt="Näyttökuva 2026-04-20 kello 17 06 01" src="https://github.com/user-attachments/assets/9f6874e9-e194-4e91-80b0-b003b131d5b7" />
 
+PÄIVITYS:
+Lisäsin vielä update_cachen päivittämään sekä servicen käynnistämään tietokannan myös buutatessa.
 
+<img width="300" height="187" alt="Näyttökuva 2026-04-20 kello 17 50 25" src="https://github.com/user-attachments/assets/0629ee8d-5675-438e-a8cd-becfeedfe24b" />
 
+Ajoin playbookin.
 
+<img width="985" height="257" alt="Näyttökuva 2026-04-20 kello 17 51 08" src="https://github.com/user-attachments/assets/c47c6bf9-09de-493b-8924-efa84e11d3a1" />
 
+Erroria hmm.. Kysäisin googlelta ja vastaukseni tuli heti, että nimi on mariadb, tuo maridb-service on vain apt:issa. Testailin uudestaan ja nyt toimi.
+
+<img width="986" height="174" alt="Näyttökuva 2026-04-20 kello 17 54 24" src="https://github.com/user-attachments/assets/1f96093d-d9d9-4de3-9ae6-2be2b15decfd" />
 
 
 ## Asetus
-
 ## Idempotentti
 
 ## Lähteet
