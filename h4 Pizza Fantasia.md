@@ -3,6 +3,12 @@
 ## Configuration Management of Distributed Systems over Unreliable and Hostile Networks
 Tarkastelussa Teron tutkielman kohdat 4.12.1, 4.12.2 & 4.12.3.1. (Karvinen 2023, 112-117)
 
+### 4.12.1
+- Ensimmäisessä kohdassa Tero käy läpi konfiguraationhallintatyökaluja Salt ja Puppet. Ansible kuuluu myös konfiguraationhallintaan.
+- Saltilla on 510 toimintaa ja pohjana on jinja2 josta saadaan Ansiblen tapaan YAML-koodi joka edelleen muuntaa tiedon python-rakenteeksi.
+- Puppetilla 113 toimintoa. Puppet ei hyödynnä yleisimpiä koodauskieliä (kuten python) vaan käyttää omia toimintojaan, määrittelee uudet resurssit ja niiden väliset yhteydet.
+
+### 4.12.2
 - 
 
 ## Räpylä
