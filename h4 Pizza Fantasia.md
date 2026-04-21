@@ -125,10 +125,10 @@ Unreliable and Hostile Networks. PhD Thesis. University of Westminster. Luettavi
 
 Karvinen, T. 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#alustava-aikataulu. Luettu 21.4.2026.
 
-https://mariadb.com/docs/server/mariadb-quickstart-guides/installing-mariadb-server-guide
+MariaDB. Installing MariaDB Server Guide. Luettavissa: https://mariadb.com/docs/server/mariadb-quickstart-guides/installing-mariadb-server-guide. Luettu 21.4.2026.
 
-https://mariadb.com/docs/server/mariadb-quickstart-guides/mariadb-remote-connection-guide
+Mariadb. Configuring MariaDB for Remote Client Access Guide. Luettavissa: https://mariadb.com/docs/server/mariadb-quickstart-guides/mariadb-remote-connection-guide. Luettu 21.4.2026
 
-https://stackoverflow.com/questions/54861685/how-change-mariadb-config
+Stackoverflow. How Change MariaDB confi?. Luettavissa: https://stackoverflow.com/questions/54861685/how-change-mariadb-config. Luettu 21.4.2026
 
 
