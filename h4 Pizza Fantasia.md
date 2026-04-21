@@ -35,28 +35,28 @@ Hieman hämmennyin, kun tuo mariadb.service teksti tulostui uudelleen ja uudelle
 
 Aluksi ansibles "puu" näytti tältä:
 
-<img width="351" height="427" alt="Näyttökuva 2026-04-20 kello 16 50 03" src="https://github.com/user-attachments/assets/3ebef84f-e297-4325-a8b4-2fb6256f15b6" /><br></br>
+<img width="351" height="427" alt="Näyttökuva 2026-04-20 kello 16 50 03" src="https://github.com/user-attachments/assets/3ebef84f-e297-4325-a8b4-2fb6256f15b6" /><br>
 Uuteen main.yml tiedostoon lisäsin asennukseen tarvittavat tiedot. apt = lataa, name = mariadb-server, state = present (eli ladataan jos ei ole jo ladattu).
 
 <img width="544" height="58" alt="Näyttökuva 2026-04-20 kello 16 50 33" src="https://github.com/user-attachments/assets/7763da63-6165-4d4d-937e-f68f31506d69" /> 
 
-<img width="517" height="75" alt="Näyttökuva 2026-04-20 kello 16 58 25" src="https://github.com/user-attachments/assets/9f461e90-45cb-4725-acab-c7d5d1ce3217" /> <br></br>
+<img width="517" height="75" alt="Näyttökuva 2026-04-20 kello 16 58 25" src="https://github.com/user-attachments/assets/9f461e90-45cb-4725-acab-c7d5d1ce3217" /> <br>
 Tämän jälkeen lisäsin uuden roolin site.yml:iin ja ajoin playbookin:
 
-<img width="938" height="355" alt="Näyttökuva 2026-04-20 kello 17 01 41" src="https://github.com/user-attachments/assets/e0d85f89-b981-4939-b337-5063a31893cb" /> <br></br>
+<img width="938" height="355" alt="Näyttökuva 2026-04-20 kello 17 01 41" src="https://github.com/user-attachments/assets/e0d85f89-b981-4939-b337-5063a31893cb" /> <br>
 Virheilmoitus koski nginx:n starttausta. Tarkistin apachen ja nginx:n statukset.
 
-<img width="931" height="305" alt="Näyttökuva 2026-04-20 kello 17 03 21" src="https://github.com/user-attachments/assets/15273f62-90d3-4a87-ac3c-b88ef254bef9" /> <br></br>
+<img width="931" height="305" alt="Näyttökuva 2026-04-20 kello 17 03 21" src="https://github.com/user-attachments/assets/15273f62-90d3-4a87-ac3c-b88ef254bef9" /> <br>
 Tein ehkä helpon ratkaisun ja poistin site.ymlista nginx:n roolin. Oliko ongelma se että apache on käynnissä? Tämän jälkeen playbook meni läpi.
 
-<img width="941" height="73" alt="Näyttökuva 2026-04-20 kello 17 06 01" src="https://github.com/user-attachments/assets/9f6874e9-e194-4e91-80b0-b003b131d5b7" /> <br></br>
+<img width="941" height="73" alt="Näyttökuva 2026-04-20 kello 17 06 01" src="https://github.com/user-attachments/assets/9f6874e9-e194-4e91-80b0-b003b131d5b7" /> <br>
 PÄIVITYS:
 Lisäsin vielä update_cachen päivittämään sekä servicen käynnistämään ohjelman myös buutatessa.
 
-<img width="300" height="187" alt="Näyttökuva 2026-04-20 kello 17 50 25" src="https://github.com/user-attachments/assets/0629ee8d-5675-438e-a8cd-becfeedfe24b" /> <br></br>
+<img width="300" height="187" alt="Näyttökuva 2026-04-20 kello 17 50 25" src="https://github.com/user-attachments/assets/0629ee8d-5675-438e-a8cd-becfeedfe24b" /> <br>
 Ajoin playbookin.
 
-<img width="985" height="257" alt="Näyttökuva 2026-04-20 kello 17 51 08" src="https://github.com/user-attachments/assets/c47c6bf9-09de-493b-8924-efa84e11d3a1" /> <br></br>
+<img width="985" height="257" alt="Näyttökuva 2026-04-20 kello 17 51 08" src="https://github.com/user-attachments/assets/c47c6bf9-09de-493b-8924-efa84e11d3a1" /> <br>
 Erroria hmm.. Kysäisin googlelta ja vastaukseni tuli heti, että nimi on mariadb, tuo maridb-service on vain apt:issa. Testailin uudestaan ja nyt toimi.
 
 <img width="986" height="174" alt="Näyttökuva 2026-04-20 kello 17 54 24" src="https://github.com/user-attachments/assets/1f96093d-d9d9-4de3-9ae6-2be2b15decfd" />
@@ -74,6 +74,19 @@ Tein mariadb hakemistoon uuden kansion files johon loin saman 50-server.conf tie
 
 <img width="569" height="348" alt="Näyttökuva 2026-04-21 kello 13 33 47" src="https://github.com/user-attachments/assets/6b3ea40e-481d-442e-a5c3-7af157a0a9a7" /> <br>
 Vaihdoin tähän uuteen tiedostoon bind-osoitteen -> 0.0.0.0.
+
+Seuraavaksi avasin main.yml tiedoston ja lisäsin sinne  copy kohdan. Tarkoituksena olisi kopioida tuo uusi conf tiedosto /etc polun tiedostoksi. 
+
+<img width="501" height="236" alt="Näyttökuva 2026-04-21 kello 13 45 04" src="https://github.com/user-attachments/assets/891a71fa-f4fc-458a-b226-7925d4de5b2a" /> <br>
+
+Tämän jälkeen ajoin playbookin ja ainakin nyt tuli muutos aikaan.
+
+<img width="878" height="179" alt="Näyttökuva 2026-04-21 kello 13 46 01" src="https://github.com/user-attachments/assets/a85e6989-a936-45af-8fca-c4eed939866a" /> <br>
+
+Näyttäisi olevan vaihtuneen tuo 50-server-cnf /etc polulla. Poistin sieltä ne muut asetukset niin mitenköhän ne saan sitten takaisin :D ?
+
+<img width="622" height="308" alt="Näyttökuva 2026-04-21 kello 13 47 22" src="https://github.com/user-attachments/assets/b1d21572-74a7-4d47-af0c-0892013dcea3" />
+
 
 
 ## Idempotentti
