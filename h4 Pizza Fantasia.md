@@ -1,3 +1,4 @@
+<img width="322" height="486" alt="Näyttökuva 2026-04-21 kello 13 55 34" src="https://github.com/user-attachments/assets/fe659fa0-c3d5-4b59-aec7-3f47cd88a734" />
 # H4
 
 ## Configuration Management of Distributed Systems over Unreliable and Hostile Networks
@@ -109,6 +110,12 @@ Ajoin playbookin uudestaan:
 <img width="877" height="80" alt="Näyttökuva 2026-04-21 kello 13 54 34" src="https://github.com/user-attachments/assets/fddeb223-da4e-4930-a97f-9a97b948b182" />
 
 Ei enää muutoksia ja tila on siis idempotentti.
+
+
+"Puu" lopussa.
+
+<img width="322" height="486" alt="Näyttökuva 2026-04-21 kello 13 55 34" src="https://github.com/user-attachments/assets/94c464a2-57dc-4e2c-b32a-6caa1d784829" />
+
 
 
 ## Lähteet
