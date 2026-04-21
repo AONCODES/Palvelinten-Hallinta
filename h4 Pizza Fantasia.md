@@ -1,4 +1,4 @@
-<img width="322" height="486" alt="Näyttökuva 2026-04-21 kello 13 55 34" src="https://github.com/user-attachments/assets/fe659fa0-c3d5-4b59-aec7-3f47cd88a734" />
+
 # H4
 
 ## Configuration Management of Distributed Systems over Unreliable and Hostile Networks
