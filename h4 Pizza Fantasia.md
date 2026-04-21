@@ -37,7 +37,7 @@ Hieman hämmennyin, kun tuo mariadb.service teksti tulostui uudelleen ja uudelle
 Aluksi ansibles "puu" näytti tältä:
 
 <img width="351" height="427" alt="Näyttökuva 2026-04-20 kello 16 50 03" src="https://github.com/user-attachments/assets/3ebef84f-e297-4325-a8b4-2fb6256f15b6" /><br>
-Uuteen main.yml tiedostoon lisäsin asennukseen tarvittavat tiedot. apt = lataa, name = mariadb-server, state = present (eli ladataan jos ei ole jo ladattu).
+Uuteen main.yml tiedostoon lisäsin asennukseen tarvittavat tiedot. apt = lataa, name = mariadb-server, state = present (eli ladataan jos ei ole jo ladattu). [mariadb](https://mariadb.com/docs/server/mariadb-quickstart-guides/installing-mariadb-server-guide)
 
 <img width="544" height="58" alt="Näyttökuva 2026-04-20 kello 16 50 33" src="https://github.com/user-attachments/assets/7763da63-6165-4d4d-937e-f68f31506d69" /> 
 
@@ -65,9 +65,9 @@ Erroria hmm.. Kysäisin googlelta ja vastaukseni tuli heti, että nimi on mariad
 
 ## Asetus
 
-Paikasin mariadb:n konffitiedostot, mutta en oikein ymmärtänyt mitä näihin pitäisi muokkailla. Goolettelin ja löysin 50-server.cnf tiedostosta bind-address kohdan. (Stackoverflor)
+Paikasin mariadb:n konffitiedostot, mutta en oikein ymmärtänyt mitä näihin pitäisi muokkailla. Goolettelin ja löysin 50-server.cnf tiedostosta bind-address kohdan. [Stackoverflor](https://stackoverflow.com/questions/54861685/how-change-mariadb-config)
 
-Tarkistelin vielä mariadb:n sivuilta mitä tuo tarkoittaa, niin vaihdoin sen IP-osoitteen mitä serveri kuuntelee. Nyt meni siis localhost -> 0.0.0.0 eli alkoi nyt kuunnella kaikkia verkkoja (mariadb)
+Tarkistelin vielä mariadb:n sivuilta mitä tuo tarkoittaa, niin vaihdoin sen IP-osoitteen mitä serveri kuuntelee. Nyt meni siis localhost -> 0.0.0.0 eli alkoi nyt kuunnella kaikkia verkkoja [mariadb](https://mariadb.com/docs/server/mariadb-quickstart-guides/mariadb-remote-connection-guide)
 
 Ajoin ansiblen mutta kaikki näyttää ok=10. 
 
@@ -99,15 +99,15 @@ sudo apt-get purge mariadb-server
 <img width="876" height="433" alt="Näyttökuva 2026-04-21 kello 13 51 08" src="https://github.com/user-attachments/assets/32d2b97d-05de-4688-b6b2-e156014a3eb2" /> <br>
 Valitsin tähän "yes" ja komentorivi aukesi perusnäkymälle.
 
-Ajoin nyt playbooking:
+Ajoin nyt playbookin:
 
-<img width="876" height="234" alt="Näyttökuva 2026-04-21 kello 13 52 31" src="https://github.com/user-attachments/assets/78d65fea-7420-412a-9703-55e73680177c" />
+<img width="876" height="234" alt="Näyttökuva 2026-04-21 kello 13 52 31" src="https://github.com/user-attachments/assets/78d65fea-7420-412a-9703-55e73680177c" /> <br>
 
-Tarkistin vielä `sudo systemctl status mariadb` niin näyttäisi olevan active ja running. Tämän olisi myös voinut tehdä myös silloin kun poistin mariadb:n.
+Tarkistin vielä `sudo systemctl status mariadb` niin näyttäisi olevan active ja running. Tämän olisi myös voinut tehdä silloin kun poistin mariadb:n.
 
 Ajoin playbookin uudestaan:
 
-<img width="877" height="80" alt="Näyttökuva 2026-04-21 kello 13 54 34" src="https://github.com/user-attachments/assets/fddeb223-da4e-4930-a97f-9a97b948b182" />
+<img width="877" height="80" alt="Näyttökuva 2026-04-21 kello 13 54 34" src="https://github.com/user-attachments/assets/fddeb223-da4e-4930-a97f-9a97b948b182" /> <br>
 
 Ei enää muutoksia ja tila on siis idempotentti.
 
@@ -121,9 +121,9 @@ Ei enää muutoksia ja tila on siis idempotentti.
 ## Lähteet
 
 Karvinen, T. 2023. Configuration Management of Distributed Systems over
-Unreliable and Hostile Networks. PhD Thesis. University of Westminster. Luettavissa: https://westminsterresearch.westminster.ac.uk/download/4cc417566aa9af60fe3826d690719e390abdb7a3c8672f3d51b1eb4ca75e7624/1427236/karvinen-2023-configuration-management-of-distributed-systems.pdf. Luettu 20.4.2026
+Unreliable and Hostile Networks. PhD Thesis. University of Westminster. Luettavissa: https://westminsterresearch.westminster.ac.uk/download/4cc417566aa9af60fe3826d690719e390abdb7a3c8672f3d51b1eb4ca75e7624/1427236/karvinen-2023-configuration-management-of-distributed-systems.pdf. Luettu 20.4.2026.
 
-https://terokarvinen.com/palvelinten-hallinta/#alustava-aikataulu
+Karvinen, T. 2026. Palvelinten Hallinta. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/#alustava-aikataulu. Luettu 21.4.2026.
 
 https://mariadb.com/docs/server/mariadb-quickstart-guides/installing-mariadb-server-guide
 
