@@ -63,6 +63,20 @@ Erroria hmm.. Kysäisin googlelta ja vastaukseni tuli heti, että nimi on mariad
 
 
 ## Asetus
+
+Paikasin mariadb:n konffitiedostot, mutta en oikein ymmärtänyt mitä näihin pitäisi muokkailla. Goolettelin ja löysin 50-server.cnf tiedostosta bind-address kohdan. (Stackoverflor)
+
+Tarkistelin vielä mariadb:n sivuilta mitä tuo tarkoittaa, niin vaihdoin sen IP-osoitteen mitä serveri kuuntelee. Nyt meni siis localhost -> 0.0.0.0 eli alkoi nyt kuunnella kaikkia verkkoja (mariadb)
+
+Ajoin ansiblen mutta kaikki näyttää ok=10. 
+
+Tein mariadb hakemistoon uuden kansion files johon loin saman 50-server.conf tiedoston. Kopioin /etc/mysql/mariadb/50-server.cnf tiedoston sinne ja poistin kommenttien alla olevat rivit (nyt huomasin että kommenttien alla olikin aika paljon eri asetuksia).
+
+<img width="569" height="348" alt="Näyttökuva 2026-04-21 kello 13 33 47" src="https://github.com/user-attachments/assets/6b3ea40e-481d-442e-a5c3-7af157a0a9a7" />
+
+Vaihdoin tähän uuteen tiedostoon bind-osoitteen -> 0.0.0.0.
+
+
 ## Idempotentti
 
 ## Lähteet
@@ -74,5 +88,8 @@ https://terokarvinen.com/palvelinten-hallinta/#alustava-aikataulu
 
 https://mariadb.com/docs/server/mariadb-quickstart-guides/installing-mariadb-server-guide
 
+https://mariadb.com/docs/server/mariadb-quickstart-guides/mariadb-remote-connection-guide
+
+https://stackoverflow.com/questions/54861685/how-change-mariadb-config
 
 
