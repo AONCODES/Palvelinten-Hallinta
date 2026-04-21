@@ -89,7 +89,27 @@ Näyttäisi olevan vaihtuneen tuo 50-server-cnf /etc polulla. Poistin sieltä ne
 
 
 
-## Idempotentti
+## Paikka remonttiin
+
+Tässä kohtaa poistin mariadb:n kokonaan
+```
+sudo apt-get purge mariadb-server
+```
+<img width="876" height="433" alt="Näyttökuva 2026-04-21 kello 13 51 08" src="https://github.com/user-attachments/assets/32d2b97d-05de-4688-b6b2-e156014a3eb2" /> <br>
+Valitsin tähän "yes" ja komentorivi aukesi perusnäkymälle.
+
+Ajoin nyt playbooking:
+
+<img width="876" height="234" alt="Näyttökuva 2026-04-21 kello 13 52 31" src="https://github.com/user-attachments/assets/78d65fea-7420-412a-9703-55e73680177c" />
+
+Tarkistin vielä `sudo systemctl status mariadb` niin näyttäisi olevan active ja running. Tämän olisi myös voinut tehdä myös silloin kun poistin mariadb:n.
+
+Ajoin playbookin uudestaan:
+
+<img width="877" height="80" alt="Näyttökuva 2026-04-21 kello 13 54 34" src="https://github.com/user-attachments/assets/fddeb223-da4e-4930-a97f-9a97b948b182" />
+
+Ei enää muutoksia ja tila on siis idempotentti.
+
 
 ## Lähteet
 
