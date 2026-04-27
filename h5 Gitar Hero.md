@@ -24,7 +24,7 @@ git push  - pullin vastakohta, siirretään paikallinen haaara toiseen repositor
 Tehdään uusi repositorio GitHubiin ja lisätään READMe.md sekä Lisenssi.
 
 
-<img width="265" height="317" alt="Näyttökuva 2026-04-27 kello 15 11 04" src="https://github.com/user-attachments/assets/e13d03bf-ab72-439f-b0ec-41237ef9fffd" />
+<img width="265" height="317" alt="Näyttökuva 2026-04-27 kello 15 11 04" src="https://github.com/user-attachments/assets/e13d03bf-ab72-439f-b0ec-41237ef9fffd" /> <br>
 
 
 Tässä kohtaa valitaan repositoriolle nimi, kuvaus sekä konfiguroinnit. Valitsin Public, jotta se on kaikille näkyvä, lisäsin README:n sekä valitsin GNU General Public License v3.0, jotta estetään minun työn omiminen. Tämän jälkeen "Create repository" ja homma on valmis.
