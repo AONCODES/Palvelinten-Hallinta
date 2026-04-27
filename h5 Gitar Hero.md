@@ -91,6 +91,26 @@ Kuvasta näkyy tehnyt muutokset repositorioon.
 
 
 ## Gitanbile
+Lisäsin ansibles kansion versionhallintaa menemällä ansibles kansioon ja siellä 
+```
+git init
+```
+<img width="748" height="256" alt="Näyttökuva 2026-04-27 kello 18 26 57" src="https://github.com/user-attachments/assets/619b4b3d-ade9-4b37-b9fa-d5b08a283079" /> <br>
+
+Tein joitakin muutoksia ja ajoin playbookin:
+<img width="933" height="224" alt="Näyttökuva 2026-04-27 kello 18 33 45" src="https://github.com/user-attachments/assets/061c38e0-558d-4d5d-bed8-4ea4c6cbfa4b" />
+<br>
+Perus typo virheitä, korjasin nämä ja ajoin uudelleen.
+<img width="928" height="319" alt="Näyttökuva 2026-04-27 kello 18 35 02" src="https://github.com/user-attachments/assets/6cd10520-1ef9-43af-8ddc-de5b62ada7d2" />
+<br>
+Ei löydy tuollaista pakettia, vaihdoin nimen Wtf -> bsdgames
+<img width="929" height="55" alt="Näyttökuva 2026-04-27 kello 18 38 52" src="https://github.com/user-attachments/assets/e0420135-867f-4dd5-8a61-50e4e5ac224f" />
+<br>
+<img width="694" height="106" alt="Näyttökuva 2026-04-27 kello 18 40 02" src="https://github.com/user-attachments/assets/7205a7a6-dd18-499e-bb28-3762265ba1a2" />
+
+
+
+
 
 ## Lähteet
 
