@@ -86,7 +86,7 @@ Kuvasta näkyy tehnyt muutokset repositorioon.
 
 `git log --patch` komennolla näkee lokeista enemmän tietoa, esim mitä on lisätty ja mitä on poistettu. Tälla tavoin on todella selkeä nähdä mitä muutoksia on tehty ja milloin.
 
-<img width="832" height="529" alt="Näyttökuva 2026-04-27 kello 18 20 18" src="https://github.com/user-attachments/assets/6f5d5cd8-8a3c-4b25-8e17-50a413b012df" />
+<img width="832" height="529" alt="Näyttökuva 2026-04-27 kello 18 20 18" src="https://github.com/user
 
 
 
@@ -106,7 +106,8 @@ Perus typo virheitä, korjasin nämä ja ajoin uudelleen.
 Ei löydy tuollaista pakettia, vaihdoin nimen Wtf -> bsdgames
 <img width="929" height="55" alt="Näyttökuva 2026-04-27 kello 18 38 52" src="https://github.com/user-attachments/assets/e0420135-867f-4dd5-8a61-50e4e5ac224f" />
 <br>
-<img width="694" height="106" alt="Näyttökuva 2026-04-27 kello 18 40 02" src="https://github.com/user-attachments/assets/7205a7a6-dd18-499e-bb28-3762265ba1a2" />
+Lisäsin kaikki muutokset `git add --all` ja tein commitin `git commit`.
+<img width="368" height="58" alt="Näyttökuva 2026-04-27 kello 18 44 01" src="https://github.com/user-attachments/assets/244bb144-6b6c-4231-b804-7b5976737eb7" />
 
 
 
