@@ -62,7 +62,7 @@ Muutin config tiedoston sisältöä ja yritin resetoida, mutta ei onnistunut. Va
 <img width="447" height="109" alt="Näyttökuva 2026-04-27 kello 17 48 38" src="https://github.com/user-attachments/assets/2dec7493-6a97-4003-a761-03cafc34a4e4" />
 <br>
 
-Nyt poistui kaikki tiedostot paitsi tuo uusi moi minkä tein.
+
 <img width="723" height="469" alt="Näyttökuva 2026-04-27 kello 17 51 11" src="https://github.com/user-attachments/assets/2e3543b4-ad97-4997-bde3-cb17cfa9b2bd" />
 
 Hieman ongelmiako? Koska jotain asetuksia muuttelin, mutta en tiedä mitä.
