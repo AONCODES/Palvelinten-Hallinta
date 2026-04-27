@@ -20,7 +20,6 @@ git push  - pullin vastakohta, siirretään paikallinen haaara toiseen repositor
 [Atlassian 2026](https://www.atlassian.com/git/glossary#commands)
 
 ## Online
-
 Tehdään uusi repositorio GitHubiin ja lisätään READMe.md sekä Lisenssi.
 
 
@@ -34,6 +33,21 @@ Tässä kohtaa valitaan repositoriolle nimi, kuvaus sekä konfiguroinnit. Valits
 
 
 ## Dolly
+Kopioin virtuaalilinuxiin kyseisen repositorion. Käytin SSH-osoitetta. Aikaisemmin olin jo kopsannut VM:sta julkisen avaimen ja tallentanut sen GitHubiin (Settings -> SSH and GPG keys -> New SSH key). 
+
+<img width="635" height="183" alt="Näyttökuva 2026-04-27 kello 17 16 35" src="https://github.com/user-attachments/assets/d7c27b69-f5ff-4a18-abee-51d3a3b05da1" />
+<br>
+
+Nyt kun repositorio oi kopioitu paikalliselle koneelle menin kyseiseen hakemistoon ja toin tiedot komennolla `git pull` -> Already up to date, eli kun kopoin sen niin ei ollut sen jälkeen muutoksia tullut.
+
+
+Kun olin lisännyt uuden tiedoston paikallisella koneella lisäsin staging tilaan muutokset, ja tallensin ne (commmit). Tämän jälkeen vielä pull komennolla hain jos repositorioon olisi tullut muiden muutoksia, lopuksi git push -> Siirsin muutokset remote repositorioon.
+
+<img width="575" height="489" alt="Näyttökuva 2026-04-27 kello 17 28 42" src="https://github.com/user-attachments/assets/56947398-09ca-45e9-b72e-75c814a31ec4" />
+<br>
+Tarkistin nyt vielä selaimesta oliko muutokset menneet GitHubiin.
+<img width="408" height="188" alt="Näyttökuva 2026-04-27 kello 17 32 06" src="https://github.com/user-attachments/assets/cde4d89c-c56b-4b9d-8eb3-6a6d8b5da092" />
+
 
 ## Doh!
 
