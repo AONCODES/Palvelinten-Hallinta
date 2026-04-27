@@ -86,7 +86,8 @@ Kuvasta näkyy tehnyt muutokset repositorioon.
 
 `git log --patch` komennolla näkee lokeista enemmän tietoa, esim mitä on lisätty ja mitä on poistettu. Tälla tavoin on todella selkeä nähdä mitä muutoksia on tehty ja milloin.
 
-<img width="832" height="529" alt="Näyttökuva 2026-04-27 kello 18 20 18" src="https://github.com/user
+<img width="864" height="517" alt="Näyttökuva 2026-04-27 kello 18 47 00" src="https://github.com/user-attachments/assets/298113bd-1c68-4b0d-9fde-d152e1edcb82" />
+
 
 
 
