@@ -51,6 +51,26 @@ Tarkistin vielä selaimesta oliko muutokset menneet GitHubiin.
 
 
 ## Doh!
+```
+git reset --hard
+```
+Komennolla poistaa kaikki muutokset staging tilasta ja myös muutokset joita ei vielä oltu lisätty `git add --all`. Eli kyseinen komento ns palauttaa kaiken siihen tilaan mikä se oli viimeisimmässä commitissa. [git](https://git-scm.com/docs/git-reset)
+
+
+Muutin config tiedoston sisältöä ja yritin resetoida, mutta ei onnistunut. Vaihdoin tekemäni muutokset takaisin, miten olisin edennyt jos en olisi muistanut enää mitä muutoksia tein?
+
+<img width="447" height="109" alt="Näyttökuva 2026-04-27 kello 17 48 38" src="https://github.com/user-attachments/assets/2dec7493-6a97-4003-a761-03cafc34a4e4" />
+<br>
+
+Nyt poistui kaikki tiedostot paitsi tuo uusi moi minkä tein.
+<img width="723" height="469" alt="Näyttökuva 2026-04-27 kello 17 51 11" src="https://github.com/user-attachments/assets/2e3543b4-ad97-4997-bde3-cb17cfa9b2bd" />
+
+Hieman ongelmiako? Koska jotain asetuksia muuttelin, mutta en tiedä mitä.
+<img width="491" height="150" alt="Näyttökuva 2026-04-27 kello 17 54 26" src="https://github.com/user-attachments/assets/7146f268-1e7f-4ed7-9b7f-f392da90922f" />
+
+Löydin HEAD tiedostosa ylimääräistä tekstiä j apääsin takaisin main haaraan. Ajoin uudelleen git reset --hard komennon.
+<img width="474" height="37" alt="Näyttökuva 2026-04-27 kello 18 00 29" src="https://github.com/user-attachments/assets/775560c0-5bdd-40be-ab48-e99fb6399788" />
+
 
 ## Tukki
 
