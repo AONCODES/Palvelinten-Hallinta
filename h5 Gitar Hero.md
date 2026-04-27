@@ -121,3 +121,5 @@ https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 https://terokarvinen.com/palvelinten-hallinta/#laksyt
 
 https://www.atlassian.com/git/glossary#commands
+
+https://git-scm.com/docs/git-reset
