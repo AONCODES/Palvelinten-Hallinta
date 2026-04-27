@@ -75,9 +75,20 @@ Löydin HEAD tiedostosta ylimääräistä tekstiä ja pääsin takaisin main haa
 Testasin uudelleen kevyemmällä muokkauksella ja nyt näyttäisi juurikin niin, että palautui tuolle f79794e commitille.
 <img width="518" height="253" alt="Näyttökuva 2026-04-27 kello 18 08 34" src="https://github.com/user-attachments/assets/7a14f675-a8ad-4360-afa7-c791a3577f11" />
 
-
-
 ## Tukki
+Kuvasta näkyy tehnyt muutokset repositorioon. 
+- Commit "tunnus".
+- Käyttäjät (Aatu N = VMLinux / paikallinen kone ja Aatu Niemi on GitHub käyttäjä).
+- Päivämäärästä näkee milloin muutokset on tehty.
+- Mitä on tehty esim Add new python file
+<img width="849" height="324" alt="Näyttökuva 2026-04-27 kello 18 14 24" src="https://github.com/user-attachments/assets/897f425c-d683-42e7-95bc-0dbfb86f415d" />
+<br>
+
+`git log --patch` komennolla näkee lokeista enemmän tietoa, esim mitä on lisätty ja mitä on poistettu. Tälla tavoin on todella selkeä nähdä mitä muutoksia on tehty ja milloin.
+
+<img width="832" height="529" alt="Näyttökuva 2026-04-27 kello 18 20 18" src="https://github.com/user-attachments/assets/6f5d5cd8-8a3c-4b25-8e17-50a413b012df" />
+
+
 
 ## Gitanbile
 
